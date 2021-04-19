@@ -50,6 +50,6 @@ def compute_rouge(src_file,tgt_file,file):
 
 
 if __name__ == '__main__':
-    compute_rouge("/Users/leo/Desktop/桌面/NLPDataset/xsum_raw/lead3-n.txt","/Users/leo/Desktop/桌面/NLPDataset/xsum_raw/lead3-n.txt.tgt","lead3_xsum_rouges.txt")
+    #compute_rouge("/Users/leo/Desktop/桌面/NLPDataset/xsum_raw/lead3-n.txt","/Users/leo/Desktop/桌面/NLPDataset/xsum_raw/lead3-n.txt.tgt","lead3_xsum_rouges.txt")
     compute_rouge("/Users/leo/Desktop/桌面/NLPDataset/samsum_raw/lead3-n.txt","/Users/leo/Desktop/桌面/NLPDataset/samsum_raw/lead3-n.txt.tgt","lead3_samsum_rouges.txt")
-    compute_rouge("/Users/leo/Desktop/桌面/NLPDataset/cnndm/lead3-n.txt","/Users/leo/Desktop/桌面/NLPDataset/cnndm/lead3-n.txt.tgt","lead3_cnndm_rouges.txt")
+    #compute_rouge("/Users/leo/Desktop/桌面/NLPDataset/cnndm/lead3-n.txt","/Users/leo/Desktop/桌面/NLPDataset/cnndm/lead3-n.txt.tgt","lead3_cnndm_rouges.txt")

@@ -4,6 +4,7 @@ from base import Extractive_Summarizer
 import spacy
 import json
 from nltk import sent_tokenize
+import random
 
 spacy_en = spacy.load('en')
 def tokenizer(text):  # create a tokenizer function
@@ -44,12 +45,19 @@ class Lead3(Extractive_Summarizer):
                 for i in tqdm(lines):
                     src = json.loads(i)
 
-                    tokenized = tokenizer(" ".join(src['source'].replace("\r","").split("\n")[:3]))
+                    tokenized = tokenizer(" ".join(lead3(src['source'].replace("\r","").split("\n"))))
                     tgt = tokenizer(src['summary'].replace("\n"," ").replace("\r",""))
 
                     out_tgt.write(" ".join(tgt)+"\n")
                     out.write(" ".join(tokenized)+"\n")
 
+
+def mid3(src:list):
+    lens = len(src)//2
+    return src[lens-1:lens+2]
+
+def lead3(src:list):
+    return src[:3]
 
 
 if __name__ == '__main__':
