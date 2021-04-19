@@ -1,22 +1,22 @@
 Evaluation with Avg 
-	rouge-1:	P: 30.45	R: 38.14	F1: 31.47
-	rouge-2:	P:  8.37	R: 11.05	F1:  8.83
-	rouge-3:	P:  4.08	R:  5.36	F1:  4.26
-	rouge-4:	P:  2.02	R:  2.66	F1:  2.09
-	rouge-l:	P: 29.37	R: 35.32	F1: 30.41
-	rouge-w:	P: 20.02	R: 14.75	F1: 15.43
+	rouge-1:	P: 30.54	R: 38.03	F1: 31.47
+	rouge-2:	P:  8.40	R: 11.05	F1:  8.85
+	rouge-3:	P:  4.09	R:  5.36	F1:  4.27
+	rouge-4:	P:  2.02	R:  2.66	F1:  2.10
+	rouge-l:	P: 29.48	R: 35.26	F1: 30.43
+	rouge-w:	P: 20.13	R: 14.72	F1: 15.44
 
 Evaluation with Best 
-	rouge-1:	P: 30.45	R: 38.14	F1: 31.47
-	rouge-2:	P:  8.37	R: 11.05	F1:  8.83
-	rouge-3:	P:  4.08	R:  5.36	F1:  4.26
-	rouge-4:	P:  2.02	R:  2.66	F1:  2.09
-	rouge-l:	P: 29.37	R: 35.32	F1: 30.41
-	rouge-w:	P: 20.02	R: 14.75	F1: 15.43
+	rouge-1:	P: 30.54	R: 38.03	F1: 31.47
+	rouge-2:	P:  8.40	R: 11.05	F1:  8.85
+	rouge-3:	P:  4.09	R:  5.36	F1:  4.27
+	rouge-4:	P:  2.02	R:  2.66	F1:  2.10
+	rouge-l:	P: 29.48	R: 35.26	F1: 30.43
+	rouge-w:	P: 20.13	R: 14.72	F1: 15.44
 
 Evaluation with Individual 
 	Hypothesis #0 & Reference #0: 
-		rouge-1:	P: 40.00	R: 35.29	F1: 37.50
+		rouge-1:	P: 42.86	R: 35.29	F1: 38.71
 	Hypothesis #1 & Reference #0: 
 		rouge-1:	P: 18.75	R: 25.00	F1: 21.43
 	Hypothesis #2 & Reference #0: 
@@ -28,7 +28,7 @@ Evaluation with Individual
 	Hypothesis #5 & Reference #0: 
 		rouge-1:	P: 46.15	R: 42.11	F1: 44.04
 	Hypothesis #6 & Reference #0: 
-		rouge-1:	P: 12.50	R: 13.33	F1: 12.90
+		rouge-1:	P: 16.00	R: 13.33	F1: 14.55
 	Hypothesis #7 & Reference #0: 
 		rouge-1:	P: 12.12	R: 30.77	F1: 17.39
 	Hypothesis #8 & Reference #0: 
@@ -48,7 +48,7 @@ Evaluation with Individual
 	Hypothesis #15 & Reference #0: 
 		rouge-1:	P: 26.67	R: 11.43	F1: 16.00
 	Hypothesis #16 & Reference #0: 
-		rouge-1:	P: 26.67	R: 44.44	F1: 33.33
+		rouge-1:	P: 28.57	R: 44.44	F1: 34.78
 	Hypothesis #17 & Reference #0: 
 		rouge-1:	P: 28.21	R: 44.00	F1: 34.38
 	Hypothesis #18 & Reference #0: 
@@ -68,7 +68,7 @@ Evaluation with Individual
 	Hypothesis #25 & Reference #0: 
 		rouge-1:	P: 11.11	R:  7.69	F1:  9.09
 	Hypothesis #26 & Reference #0: 
-		rouge-1:	P:  5.00	R: 11.11	F1:  6.90
+		rouge-1:	P:  5.56	R: 11.11	F1:  7.41
 	Hypothesis #27 & Reference #0: 
 		rouge-1:	P: 28.57	R: 63.16	F1: 39.34
 	Hypothesis #28 & Reference #0: 
@@ -100,11 +100,11 @@ Evaluation with Individual
 	Hypothesis #41 & Reference #0: 
 		rouge-1:	P: 18.18	R: 44.44	F1: 25.81
 	Hypothesis #42 & Reference #0: 
-		rouge-1:	P: 29.69	R: 43.18	F1: 35.19
+		rouge-1:	P: 30.16	R: 43.18	F1: 35.51
 	Hypothesis #43 & Reference #0: 
 		rouge-1:	P: 38.89	R: 77.78	F1: 51.85
 	Hypothesis #44 & Reference #0: 
-		rouge-1:	P: 22.22	R: 25.00	F1: 23.53
+		rouge-1:	P: 17.65	R: 18.75	F1: 18.18
 	Hypothesis #45 & Reference #0: 
 		rouge-1:	P: 24.00	R: 40.00	F1: 30.00
 	Hypothesis #46 & Reference #0: 
@@ -118,7 +118,7 @@ Evaluation with Individual
 	Hypothesis #50 & Reference #0: 
 		rouge-1:	P: 27.27	R: 37.50	F1: 31.58
 	Hypothesis #51 & Reference #0: 
-		rouge-1:	P: 25.00	R: 33.33	F1: 28.57
+		rouge-1:	P: 26.67	R: 33.33	F1: 29.63
 	Hypothesis #52 & Reference #0: 
 		rouge-1:	P: 24.14	R: 50.00	F1: 32.56
 	Hypothesis #53 & Reference #0: 
@@ -136,7 +136,7 @@ Evaluation with Individual
 	Hypothesis #59 & Reference #0: 
 		rouge-1:	P: 30.00	R: 20.00	F1: 24.00
 	Hypothesis #60 & Reference #0: 
-		rouge-1:	P: 21.05	R: 66.67	F1: 32.00
+		rouge-1:	P: 22.22	R: 66.67	F1: 33.33
 	Hypothesis #61 & Reference #0: 
 		rouge-1:	P: 30.77	R: 28.57	F1: 29.63
 	Hypothesis #62 & Reference #0: 
@@ -144,17 +144,17 @@ Evaluation with Individual
 	Hypothesis #63 & Reference #0: 
 		rouge-1:	P: 63.64	R: 56.76	F1: 60.00
 	Hypothesis #64 & Reference #0: 
-		rouge-1:	P: 14.29	R: 18.18	F1: 16.00
+		rouge-1:	P: 14.63	R: 18.18	F1: 16.22
 	Hypothesis #65 & Reference #0: 
 		rouge-1:	P: 43.75	R: 36.84	F1: 40.00
 	Hypothesis #66 & Reference #0: 
 		rouge-1:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #67 & Reference #0: 
-		rouge-1:	P: 31.03	R: 20.93	F1: 25.00
+		rouge-1:	P: 32.14	R: 20.93	F1: 25.35
 	Hypothesis #68 & Reference #0: 
 		rouge-1:	P: 23.33	R: 20.59	F1: 21.87
 	Hypothesis #69 & Reference #0: 
-		rouge-1:	P: 15.00	R: 12.50	F1: 13.64
+		rouge-1:	P: 15.79	R: 12.50	F1: 13.95
 	Hypothesis #70 & Reference #0: 
 		rouge-1:	P: 24.14	R: 46.67	F1: 31.82
 	Hypothesis #71 & Reference #0: 
@@ -176,7 +176,7 @@ Evaluation with Individual
 	Hypothesis #79 & Reference #0: 
 		rouge-1:	P:  4.55	R:  5.26	F1:  4.88
 	Hypothesis #80 & Reference #0: 
-		rouge-1:	P: 30.77	R: 36.36	F1: 33.33
+		rouge-1:	P: 33.33	R: 36.36	F1: 34.78
 	Hypothesis #81 & Reference #0: 
 		rouge-1:	P: 16.67	R: 10.53	F1: 12.90
 	Hypothesis #82 & Reference #0: 
@@ -196,7 +196,7 @@ Evaluation with Individual
 	Hypothesis #89 & Reference #0: 
 		rouge-1:	P: 29.73	R: 61.11	F1: 40.00
 	Hypothesis #90 & Reference #0: 
-		rouge-1:	P: 23.53	R: 100.00	F1: 38.10
+		rouge-1:	P: 25.00	R: 100.00	F1: 40.00
 	Hypothesis #91 & Reference #0: 
 		rouge-1:	P: 16.67	R: 10.53	F1: 12.90
 	Hypothesis #92 & Reference #0: 
@@ -212,13 +212,13 @@ Evaluation with Individual
 	Hypothesis #97 & Reference #0: 
 		rouge-1:	P: 16.13	R: 29.41	F1: 20.83
 	Hypothesis #98 & Reference #0: 
-		rouge-1:	P: 37.50	R: 64.29	F1: 47.37
+		rouge-1:	P: 39.13	R: 64.29	F1: 48.65
 	Hypothesis #99 & Reference #0: 
 		rouge-1:	P: 19.05	R: 21.05	F1: 20.00
 	Hypothesis #100 & Reference #0: 
 		rouge-1:	P: 25.45	R: 53.85	F1: 34.57
 	Hypothesis #101 & Reference #0: 
-		rouge-1:	P: 54.55	R: 42.86	F1: 48.00
+		rouge-1:	P: 50.00	R: 35.71	F1: 41.67
 	Hypothesis #102 & Reference #0: 
 		rouge-1:	P: 27.78	R: 62.50	F1: 38.46
 	Hypothesis #103 & Reference #0: 
@@ -250,7 +250,7 @@ Evaluation with Individual
 	Hypothesis #116 & Reference #0: 
 		rouge-1:	P: 15.15	R: 20.00	F1: 17.24
 	Hypothesis #117 & Reference #0: 
-		rouge-1:	P: 20.00	R: 55.56	F1: 29.41
+		rouge-1:	P: 20.83	R: 55.56	F1: 30.30
 	Hypothesis #118 & Reference #0: 
 		rouge-1:	P: 20.00	R: 28.57	F1: 23.53
 	Hypothesis #119 & Reference #0: 
@@ -262,9 +262,9 @@ Evaluation with Individual
 	Hypothesis #122 & Reference #0: 
 		rouge-1:	P: 18.75	R: 27.27	F1: 22.22
 	Hypothesis #123 & Reference #0: 
-		rouge-1:	P: 27.27	R: 33.33	F1: 30.00
+		rouge-1:	P: 33.33	R: 33.33	F1: 33.33
 	Hypothesis #124 & Reference #0: 
-		rouge-1:	P: 50.00	R: 45.45	F1: 47.62
+		rouge-1:	P: 44.44	R: 36.36	F1: 40.00
 	Hypothesis #125 & Reference #0: 
 		rouge-1:	P: 46.15	R: 46.15	F1: 46.15
 	Hypothesis #126 & Reference #0: 
@@ -298,7 +298,7 @@ Evaluation with Individual
 	Hypothesis #140 & Reference #0: 
 		rouge-1:	P: 37.50	R: 100.00	F1: 54.55
 	Hypothesis #141 & Reference #0: 
-		rouge-1:	P: 27.78	R: 13.16	F1: 17.86
+		rouge-1:	P: 29.41	R: 13.16	F1: 18.18
 	Hypothesis #142 & Reference #0: 
 		rouge-1:	P: 25.00	R: 46.67	F1: 32.56
 	Hypothesis #143 & Reference #0: 
@@ -338,7 +338,7 @@ Evaluation with Individual
 	Hypothesis #160 & Reference #0: 
 		rouge-1:	P:  5.00	R: 14.29	F1:  7.41
 	Hypothesis #161 & Reference #0: 
-		rouge-1:	P:  9.09	R: 22.22	F1: 12.90
+		rouge-1:	P:  9.52	R: 22.22	F1: 13.33
 	Hypothesis #162 & Reference #0: 
 		rouge-1:	P: 33.33	R: 33.33	F1: 33.33
 	Hypothesis #163 & Reference #0: 
@@ -378,11 +378,11 @@ Evaluation with Individual
 	Hypothesis #180 & Reference #0: 
 		rouge-1:	P: 36.84	R: 33.33	F1: 35.00
 	Hypothesis #181 & Reference #0: 
-		rouge-1:	P: 33.33	R: 13.79	F1: 19.51
+		rouge-1:	P: 27.27	R: 10.34	F1: 15.00
 	Hypothesis #182 & Reference #0: 
 		rouge-1:	P: 21.74	R: 47.62	F1: 29.85
 	Hypothesis #183 & Reference #0: 
-		rouge-1:	P: 48.00	R: 52.17	F1: 50.00
+		rouge-1:	P: 50.00	R: 52.17	F1: 51.06
 	Hypothesis #184 & Reference #0: 
 		rouge-1:	P: 38.46	R: 31.25	F1: 34.48
 	Hypothesis #185 & Reference #0: 
@@ -394,7 +394,7 @@ Evaluation with Individual
 	Hypothesis #188 & Reference #0: 
 		rouge-1:	P: 52.63	R: 34.48	F1: 41.67
 	Hypothesis #189 & Reference #0: 
-		rouge-1:	P: 17.65	R: 33.33	F1: 23.08
+		rouge-1:	P: 18.75	R: 33.33	F1: 24.00
 	Hypothesis #190 & Reference #0: 
 		rouge-1:	P: 24.14	R: 56.00	F1: 33.73
 	Hypothesis #191 & Reference #0: 
@@ -410,7 +410,7 @@ Evaluation with Individual
 	Hypothesis #196 & Reference #0: 
 		rouge-1:	P:  6.25	R:  4.55	F1:  5.26
 	Hypothesis #197 & Reference #0: 
-		rouge-1:	P: 17.50	R: 53.85	F1: 26.42
+		rouge-1:	P: 17.95	R: 53.85	F1: 26.92
 	Hypothesis #198 & Reference #0: 
 		rouge-1:	P: 25.81	R: 57.14	F1: 35.56
 	Hypothesis #199 & Reference #0: 
@@ -434,13 +434,13 @@ Evaluation with Individual
 	Hypothesis #208 & Reference #0: 
 		rouge-1:	P: 24.21	R: 54.76	F1: 33.58
 	Hypothesis #209 & Reference #0: 
-		rouge-1:	P: 31.58	R: 50.00	F1: 38.71
+		rouge-1:	P: 27.78	R: 41.67	F1: 33.33
 	Hypothesis #210 & Reference #0: 
 		rouge-1:	P: 27.27	R: 37.50	F1: 31.58
 	Hypothesis #211 & Reference #0: 
 		rouge-1:	P: 15.38	R: 20.00	F1: 17.39
 	Hypothesis #212 & Reference #0: 
-		rouge-1:	P: 50.00	R: 30.00	F1: 37.50
+		rouge-1:	P: 40.00	R: 20.00	F1: 26.67
 	Hypothesis #213 & Reference #0: 
 		rouge-1:	P: 17.65	R: 40.00	F1: 24.49
 	Hypothesis #214 & Reference #0: 
@@ -454,7 +454,7 @@ Evaluation with Individual
 	Hypothesis #218 & Reference #0: 
 		rouge-1:	P: 21.43	R: 23.08	F1: 22.22
 	Hypothesis #219 & Reference #0: 
-		rouge-1:	P: 44.00	R: 55.00	F1: 48.89
+		rouge-1:	P: 45.83	R: 55.00	F1: 50.00
 	Hypothesis #220 & Reference #0: 
 		rouge-1:	P: 28.57	R: 22.22	F1: 25.00
 	Hypothesis #221 & Reference #0: 
@@ -516,7 +516,7 @@ Evaluation with Individual
 	Hypothesis #249 & Reference #0: 
 		rouge-1:	P: 15.00	R: 25.00	F1: 18.75
 	Hypothesis #250 & Reference #0: 
-		rouge-1:	P: 15.79	R: 17.65	F1: 16.67
+		rouge-1:	P: 16.67	R: 17.65	F1: 17.14
 	Hypothesis #251 & Reference #0: 
 		rouge-1:	P: 52.94	R: 81.82	F1: 64.29
 	Hypothesis #252 & Reference #0: 
@@ -536,7 +536,7 @@ Evaluation with Individual
 	Hypothesis #259 & Reference #0: 
 		rouge-1:	P: 33.33	R: 27.27	F1: 30.00
 	Hypothesis #260 & Reference #0: 
-		rouge-1:	P: 47.06	R: 45.71	F1: 46.38
+		rouge-1:	P: 50.00	R: 45.71	F1: 47.76
 	Hypothesis #261 & Reference #0: 
 		rouge-1:	P: 37.50	R: 75.00	F1: 50.00
 	Hypothesis #262 & Reference #0: 
@@ -568,15 +568,15 @@ Evaluation with Individual
 	Hypothesis #275 & Reference #0: 
 		rouge-1:	P: 34.62	R: 64.29	F1: 45.00
 	Hypothesis #276 & Reference #0: 
-		rouge-1:	P: 25.00	R: 18.18	F1: 21.05
+		rouge-1:	P: 28.57	R: 18.18	F1: 22.22
 	Hypothesis #277 & Reference #0: 
 		rouge-1:	P: 30.00	R: 19.57	F1: 23.68
 	Hypothesis #278 & Reference #0: 
-		rouge-1:	P: 28.57	R: 54.55	F1: 37.50
+		rouge-1:	P: 30.00	R: 54.55	F1: 38.71
 	Hypothesis #279 & Reference #0: 
 		rouge-1:	P: 35.00	R: 35.90	F1: 35.44
 	Hypothesis #280 & Reference #0: 
-		rouge-1:	P: 22.22	R:  8.33	F1: 12.12
+		rouge-1:	P: 25.00	R:  8.33	F1: 12.50
 	Hypothesis #281 & Reference #0: 
 		rouge-1:	P:  4.00	R:  7.69	F1:  5.26
 	Hypothesis #282 & Reference #0: 
@@ -586,7 +586,7 @@ Evaluation with Individual
 	Hypothesis #284 & Reference #0: 
 		rouge-1:	P: 16.00	R: 12.50	F1: 14.04
 	Hypothesis #285 & Reference #0: 
-		rouge-1:	P: 25.00	R: 12.90	F1: 17.02
+		rouge-1:	P: 26.67	R: 12.90	F1: 17.39
 	Hypothesis #286 & Reference #0: 
 		rouge-1:	P: 23.53	R: 15.38	F1: 18.60
 	Hypothesis #287 & Reference #0: 
@@ -596,7 +596,7 @@ Evaluation with Individual
 	Hypothesis #289 & Reference #0: 
 		rouge-1:	P: 19.05	R: 17.39	F1: 18.18
 	Hypothesis #290 & Reference #0: 
-		rouge-1:	P: 21.43	R: 23.08	F1: 22.22
+		rouge-1:	P: 23.08	R: 23.08	F1: 23.08
 	Hypothesis #291 & Reference #0: 
 		rouge-1:	P: 39.29	R: 26.83	F1: 31.88
 	Hypothesis #292 & Reference #0: 
@@ -630,7 +630,7 @@ Evaluation with Individual
 	Hypothesis #306 & Reference #0: 
 		rouge-1:	P: 40.00	R: 69.57	F1: 50.79
 	Hypothesis #307 & Reference #0: 
-		rouge-1:	P: 12.50	R: 22.22	F1: 16.00
+		rouge-1:	P: 13.33	R: 22.22	F1: 16.67
 	Hypothesis #308 & Reference #0: 
 		rouge-1:	P: 28.00	R: 21.88	F1: 24.56
 	Hypothesis #309 & Reference #0: 
@@ -638,7 +638,7 @@ Evaluation with Individual
 	Hypothesis #310 & Reference #0: 
 		rouge-1:	P: 38.46	R: 26.32	F1: 31.25
 	Hypothesis #311 & Reference #0: 
-		rouge-1:	P: 17.39	R: 20.00	F1: 18.60
+		rouge-1:	P: 18.18	R: 20.00	F1: 19.05
 	Hypothesis #312 & Reference #0: 
 		rouge-1:	P: 22.22	R: 60.00	F1: 32.43
 	Hypothesis #313 & Reference #0: 
@@ -652,7 +652,7 @@ Evaluation with Individual
 	Hypothesis #317 & Reference #0: 
 		rouge-1:	P: 24.00	R: 54.55	F1: 33.33
 	Hypothesis #318 & Reference #0: 
-		rouge-1:	P: 21.74	R: 31.25	F1: 25.64
+		rouge-1:	P: 22.73	R: 31.25	F1: 26.32
 	Hypothesis #319 & Reference #0: 
 		rouge-1:	P: 18.75	R: 42.86	F1: 26.09
 	Hypothesis #320 & Reference #0: 
@@ -668,7 +668,7 @@ Evaluation with Individual
 	Hypothesis #325 & Reference #0: 
 		rouge-1:	P: 29.41	R: 38.46	F1: 33.33
 	Hypothesis #326 & Reference #0: 
-		rouge-1:	P: 28.57	R: 50.00	F1: 36.36
+		rouge-1:	P: 30.77	R: 50.00	F1: 38.10
 	Hypothesis #327 & Reference #0: 
 		rouge-1:	P: 26.67	R: 26.67	F1: 26.67
 	Hypothesis #328 & Reference #0: 
@@ -720,7 +720,7 @@ Evaluation with Individual
 	Hypothesis #351 & Reference #0: 
 		rouge-1:	P: 46.15	R: 23.08	F1: 30.77
 	Hypothesis #352 & Reference #0: 
-		rouge-1:	P: 40.91	R: 37.50	F1: 39.13
+		rouge-1:	P: 42.86	R: 37.50	F1: 40.00
 	Hypothesis #353 & Reference #0: 
 		rouge-1:	P: 12.50	R: 17.86	F1: 14.71
 	Hypothesis #354 & Reference #0: 
@@ -728,7 +728,7 @@ Evaluation with Individual
 	Hypothesis #355 & Reference #0: 
 		rouge-1:	P: 33.33	R: 25.00	F1: 28.57
 	Hypothesis #356 & Reference #0: 
-		rouge-1:	P:  8.33	R: 40.00	F1: 13.79
+		rouge-1:	P:  8.70	R: 40.00	F1: 14.29
 	Hypothesis #357 & Reference #0: 
 		rouge-1:	P: 31.75	R: 60.61	F1: 41.67
 	Hypothesis #358 & Reference #0: 
@@ -778,7 +778,7 @@ Evaluation with Individual
 	Hypothesis #380 & Reference #0: 
 		rouge-1:	P: 45.83	R: 37.93	F1: 41.51
 	Hypothesis #381 & Reference #0: 
-		rouge-1:	P: 14.29	R: 25.00	F1: 18.18
+		rouge-1:	P: 16.67	R: 25.00	F1: 20.00
 	Hypothesis #382 & Reference #0: 
 		rouge-1:	P: 47.62	R: 38.46	F1: 42.55
 	Hypothesis #383 & Reference #0: 
@@ -788,7 +788,7 @@ Evaluation with Individual
 	Hypothesis #385 & Reference #0: 
 		rouge-1:	P: 35.71	R: 50.00	F1: 41.67
 	Hypothesis #386 & Reference #0: 
-		rouge-1:	P: 32.26	R: 50.00	F1: 39.22
+		rouge-1:	P: 33.33	R: 50.00	F1: 40.00
 	Hypothesis #387 & Reference #0: 
 		rouge-1:	P: 48.00	R: 60.00	F1: 53.33
 	Hypothesis #388 & Reference #0: 
@@ -806,7 +806,7 @@ Evaluation with Individual
 	Hypothesis #394 & Reference #0: 
 		rouge-1:	P: 50.00	R: 39.29	F1: 44.00
 	Hypothesis #395 & Reference #0: 
-		rouge-1:	P: 25.00	R: 16.00	F1: 19.51
+		rouge-1:	P: 26.67	R: 16.00	F1: 20.00
 	Hypothesis #396 & Reference #0: 
 		rouge-1:	P:  8.33	R:  6.67	F1:  7.41
 	Hypothesis #397 & Reference #0: 
@@ -820,9 +820,9 @@ Evaluation with Individual
 	Hypothesis #401 & Reference #0: 
 		rouge-1:	P: 31.58	R: 40.00	F1: 35.29
 	Hypothesis #402 & Reference #0: 
-		rouge-1:	P: 42.11	R: 57.14	F1: 48.48
+		rouge-1:	P: 47.06	R: 57.14	F1: 51.61
 	Hypothesis #403 & Reference #0: 
-		rouge-1:	P: 37.50	R: 54.55	F1: 44.44
+		rouge-1:	P: 33.33	R: 45.45	F1: 38.46
 	Hypothesis #404 & Reference #0: 
 		rouge-1:	P: 42.86	R: 27.27	F1: 33.33
 	Hypothesis #405 & Reference #0: 
@@ -844,7 +844,7 @@ Evaluation with Individual
 	Hypothesis #413 & Reference #0: 
 		rouge-1:	P: 32.50	R: 39.39	F1: 35.62
 	Hypothesis #414 & Reference #0: 
-		rouge-1:	P: 25.00	R: 25.00	F1: 25.00
+		rouge-1:	P: 27.27	R: 25.00	F1: 26.09
 	Hypothesis #415 & Reference #0: 
 		rouge-1:	P: 50.00	R: 18.00	F1: 26.47
 	Hypothesis #416 & Reference #0: 
@@ -868,7 +868,7 @@ Evaluation with Individual
 	Hypothesis #425 & Reference #0: 
 		rouge-1:	P: 26.23	R: 57.14	F1: 35.96
 	Hypothesis #426 & Reference #0: 
-		rouge-1:	P: 35.71	R: 19.23	F1: 25.00
+		rouge-1:	P: 38.46	R: 19.23	F1: 25.64
 	Hypothesis #427 & Reference #0: 
 		rouge-1:	P: 28.00	R: 53.85	F1: 36.84
 	Hypothesis #428 & Reference #0: 
@@ -918,13 +918,13 @@ Evaluation with Individual
 	Hypothesis #450 & Reference #0: 
 		rouge-1:	P: 36.11	R: 36.11	F1: 36.11
 	Hypothesis #451 & Reference #0: 
-		rouge-1:	P: 20.00	R: 66.67	F1: 30.77
+		rouge-1:	P: 21.05	R: 66.67	F1: 32.00
 	Hypothesis #452 & Reference #0: 
 		rouge-1:	P: 26.09	R: 60.00	F1: 36.36
 	Hypothesis #453 & Reference #0: 
 		rouge-1:	P: 25.00	R: 44.44	F1: 32.00
 	Hypothesis #454 & Reference #0: 
-		rouge-1:	P: 15.79	R: 17.65	F1: 16.67
+		rouge-1:	P: 16.67	R: 17.65	F1: 17.14
 	Hypothesis #455 & Reference #0: 
 		rouge-1:	P: 28.00	R: 35.00	F1: 31.11
 	Hypothesis #456 & Reference #0: 
@@ -934,13 +934,13 @@ Evaluation with Individual
 	Hypothesis #458 & Reference #0: 
 		rouge-1:	P: 36.84	R: 48.28	F1: 41.79
 	Hypothesis #459 & Reference #0: 
-		rouge-1:	P: 21.05	R: 13.33	F1: 16.33
+		rouge-1:	P: 22.22	R: 13.33	F1: 16.67
 	Hypothesis #460 & Reference #0: 
 		rouge-1:	P: 25.00	R: 41.67	F1: 31.25
 	Hypothesis #461 & Reference #0: 
 		rouge-1:	P: 47.06	R: 27.59	F1: 34.78
 	Hypothesis #462 & Reference #0: 
-		rouge-1:	P: 24.14	R: 41.18	F1: 30.43
+		rouge-1:	P: 25.00	R: 41.18	F1: 31.11
 	Hypothesis #463 & Reference #0: 
 		rouge-1:	P: 46.15	R: 75.00	F1: 57.14
 	Hypothesis #464 & Reference #0: 
@@ -970,7 +970,7 @@ Evaluation with Individual
 	Hypothesis #476 & Reference #0: 
 		rouge-1:	P: 42.86	R:  9.38	F1: 15.38
 	Hypothesis #477 & Reference #0: 
-		rouge-1:	P: 60.87	R: 45.16	F1: 51.85
+		rouge-1:	P: 63.64	R: 45.16	F1: 52.83
 	Hypothesis #478 & Reference #0: 
 		rouge-1:	P: 47.62	R: 30.30	F1: 37.04
 	Hypothesis #479 & Reference #0: 
@@ -990,7 +990,7 @@ Evaluation with Individual
 	Hypothesis #486 & Reference #0: 
 		rouge-1:	P: 46.67	R: 58.33	F1: 51.85
 	Hypothesis #487 & Reference #0: 
-		rouge-1:	P: 10.00	R: 20.00	F1: 13.33
+		rouge-1:	P: 10.53	R: 20.00	F1: 13.79
 	Hypothesis #488 & Reference #0: 
 		rouge-1:	P: 48.00	R: 75.00	F1: 58.54
 	Hypothesis #489 & Reference #0: 
@@ -1010,7 +1010,7 @@ Evaluation with Individual
 	Hypothesis #496 & Reference #0: 
 		rouge-1:	P:  8.82	R: 50.00	F1: 15.00
 	Hypothesis #497 & Reference #0: 
-		rouge-1:	P:  7.14	R: 14.29	F1:  9.52
+		rouge-1:	P:  7.69	R: 14.29	F1: 10.00
 	Hypothesis #498 & Reference #0: 
 		rouge-1:	P: 12.07	R: 17.95	F1: 14.43
 	Hypothesis #499 & Reference #0: 
@@ -1034,7 +1034,7 @@ Evaluation with Individual
 	Hypothesis #508 & Reference #0: 
 		rouge-1:	P: 23.53	R: 36.36	F1: 28.57
 	Hypothesis #509 & Reference #0: 
-		rouge-1:	P: 29.41	R: 20.83	F1: 24.39
+		rouge-1:	P: 31.25	R: 20.83	F1: 25.00
 	Hypothesis #510 & Reference #0: 
 		rouge-1:	P: 33.33	R: 44.44	F1: 38.10
 	Hypothesis #511 & Reference #0: 
@@ -1064,9 +1064,9 @@ Evaluation with Individual
 	Hypothesis #523 & Reference #0: 
 		rouge-1:	P: 56.25	R: 31.03	F1: 40.00
 	Hypothesis #524 & Reference #0: 
-		rouge-1:	P:  6.25	R:  6.67	F1:  6.45
+		rouge-1:	P:  6.67	R:  6.67	F1:  6.67
 	Hypothesis #525 & Reference #0: 
-		rouge-1:	P: 30.77	R: 50.00	F1: 38.10
+		rouge-1:	P: 32.00	R: 50.00	F1: 39.02
 	Hypothesis #526 & Reference #0: 
 		rouge-1:	P:  9.38	R: 23.08	F1: 13.33
 	Hypothesis #527 & Reference #0: 
@@ -1126,7 +1126,7 @@ Evaluation with Individual
 	Hypothesis #554 & Reference #0: 
 		rouge-1:	P: 17.95	R: 22.58	F1: 20.00
 	Hypothesis #555 & Reference #0: 
-		rouge-1:	P: 18.18	R:  6.06	F1:  9.09
+		rouge-1:	P: 20.00	R:  6.06	F1:  9.30
 	Hypothesis #556 & Reference #0: 
 		rouge-1:	P: 50.00	R: 77.78	F1: 60.87
 	Hypothesis #557 & Reference #0: 
@@ -1140,7 +1140,7 @@ Evaluation with Individual
 	Hypothesis #561 & Reference #0: 
 		rouge-1:	P: 50.00	R: 57.14	F1: 53.33
 	Hypothesis #562 & Reference #0: 
-		rouge-1:	P: 37.93	R: 45.83	F1: 41.51
+		rouge-1:	P: 39.29	R: 45.83	F1: 42.31
 	Hypothesis #563 & Reference #0: 
 		rouge-1:	P: 17.65	R: 12.00	F1: 14.29
 	Hypothesis #564 & Reference #0: 
@@ -1150,13 +1150,13 @@ Evaluation with Individual
 	Hypothesis #566 & Reference #0: 
 		rouge-1:	P: 23.81	R: 83.33	F1: 37.04
 	Hypothesis #567 & Reference #0: 
-		rouge-1:	P: 30.36	R: 53.12	F1: 38.64
+		rouge-1:	P: 30.91	R: 53.12	F1: 39.08
 	Hypothesis #568 & Reference #0: 
 		rouge-1:	P: 29.41	R: 71.43	F1: 41.67
 	Hypothesis #569 & Reference #0: 
 		rouge-1:	P: 53.85	R: 70.00	F1: 60.87
 	Hypothesis #570 & Reference #0: 
-		rouge-1:	P: 19.23	R: 26.32	F1: 22.22
+		rouge-1:	P: 20.00	R: 26.32	F1: 22.73
 	Hypothesis #571 & Reference #0: 
 		rouge-1:	P: 30.43	R: 46.67	F1: 36.84
 	Hypothesis #572 & Reference #0: 
@@ -1212,7 +1212,7 @@ Evaluation with Individual
 	Hypothesis #597 & Reference #0: 
 		rouge-1:	P: 50.00	R: 80.00	F1: 61.54
 	Hypothesis #598 & Reference #0: 
-		rouge-1:	P: 30.43	R: 46.67	F1: 36.84
+		rouge-1:	P: 31.82	R: 46.67	F1: 37.84
 	Hypothesis #599 & Reference #0: 
 		rouge-1:	P: 26.67	R: 50.00	F1: 34.78
 	Hypothesis #600 & Reference #0: 
@@ -1272,7 +1272,7 @@ Evaluation with Individual
 	Hypothesis #627 & Reference #0: 
 		rouge-1:	P: 36.67	R: 40.74	F1: 38.60
 	Hypothesis #628 & Reference #0: 
-		rouge-1:	P: 44.44	R: 12.12	F1: 19.05
+		rouge-1:	P: 37.50	R:  9.09	F1: 14.63
 	Hypothesis #629 & Reference #0: 
 		rouge-1:	P:  7.41	R: 44.44	F1: 12.70
 	Hypothesis #630 & Reference #0: 
@@ -1282,7 +1282,7 @@ Evaluation with Individual
 	Hypothesis #632 & Reference #0: 
 		rouge-1:	P: 56.25	R: 69.23	F1: 62.07
 	Hypothesis #633 & Reference #0: 
-		rouge-1:	P: 18.92	R: 36.84	F1: 25.00
+		rouge-1:	P: 19.44	R: 36.84	F1: 25.45
 	Hypothesis #634 & Reference #0: 
 		rouge-1:	P: 34.78	R: 17.39	F1: 23.19
 	Hypothesis #635 & Reference #0: 
@@ -1316,7 +1316,7 @@ Evaluation with Individual
 	Hypothesis #649 & Reference #0: 
 		rouge-1:	P: 26.32	R: 31.25	F1: 28.57
 	Hypothesis #650 & Reference #0: 
-		rouge-1:	P: 21.43	R: 75.00	F1: 33.33
+		rouge-1:	P: 23.08	R: 75.00	F1: 35.29
 	Hypothesis #651 & Reference #0: 
 		rouge-1:	P: 35.71	R: 55.56	F1: 43.48
 	Hypothesis #652 & Reference #0: 
@@ -1334,7 +1334,7 @@ Evaluation with Individual
 	Hypothesis #658 & Reference #0: 
 		rouge-1:	P: 11.76	R:  7.69	F1:  9.30
 	Hypothesis #659 & Reference #0: 
-		rouge-1:	P: 27.27	R: 25.00	F1: 26.09
+		rouge-1:	P: 20.00	R: 16.67	F1: 18.18
 	Hypothesis #660 & Reference #0: 
 		rouge-1:	P: 38.89	R: 63.64	F1: 48.28
 	Hypothesis #661 & Reference #0: 
@@ -1356,9 +1356,9 @@ Evaluation with Individual
 	Hypothesis #669 & Reference #0: 
 		rouge-1:	P: 20.83	R: 50.00	F1: 29.41
 	Hypothesis #670 & Reference #0: 
-		rouge-1:	P: 15.38	R: 40.00	F1: 22.22
+		rouge-1:	P: 16.67	R: 40.00	F1: 23.53
 	Hypothesis #671 & Reference #0: 
-		rouge-1:	P: 13.64	R: 15.00	F1: 14.29
+		rouge-1:	P: 14.29	R: 15.00	F1: 14.63
 	Hypothesis #672 & Reference #0: 
 		rouge-1:	P: 15.38	R: 23.53	F1: 18.60
 	Hypothesis #673 & Reference #0: 
@@ -1378,13 +1378,13 @@ Evaluation with Individual
 	Hypothesis #680 & Reference #0: 
 		rouge-1:	P: 16.67	R: 17.50	F1: 17.07
 	Hypothesis #681 & Reference #0: 
-		rouge-1:	P: 27.27	R: 85.71	F1: 41.38
+		rouge-1:	P: 28.57	R: 85.71	F1: 42.86
 	Hypothesis #682 & Reference #0: 
 		rouge-1:	P: 19.35	R: 30.00	F1: 23.53
 	Hypothesis #683 & Reference #0: 
 		rouge-1:	P: 16.67	R: 18.18	F1: 17.39
 	Hypothesis #684 & Reference #0: 
-		rouge-1:	P:  7.69	R:  9.09	F1:  8.33
+		rouge-1:	P:  8.33	R:  9.09	F1:  8.70
 	Hypothesis #685 & Reference #0: 
 		rouge-1:	P: 21.43	R: 56.25	F1: 31.03
 	Hypothesis #686 & Reference #0: 
@@ -1398,7 +1398,7 @@ Evaluation with Individual
 	Hypothesis #690 & Reference #0: 
 		rouge-1:	P: 13.64	R: 33.33	F1: 19.35
 	Hypothesis #691 & Reference #0: 
-		rouge-1:	P: 27.27	R: 14.29	F1: 18.75
+		rouge-1:	P: 30.00	R: 14.29	F1: 19.35
 	Hypothesis #692 & Reference #0: 
 		rouge-1:	P: 17.39	R: 25.00	F1: 20.51
 	Hypothesis #693 & Reference #0: 
@@ -1428,7 +1428,7 @@ Evaluation with Individual
 	Hypothesis #705 & Reference #0: 
 		rouge-1:	P: 20.45	R: 45.00	F1: 28.13
 	Hypothesis #706 & Reference #0: 
-		rouge-1:	P: 15.38	R:  9.52	F1: 11.76
+		rouge-1:	P: 16.67	R:  9.52	F1: 12.12
 	Hypothesis #707 & Reference #0: 
 		rouge-1:	P: 20.59	R: 46.67	F1: 28.57
 	Hypothesis #708 & Reference #0: 
@@ -1440,7 +1440,7 @@ Evaluation with Individual
 	Hypothesis #711 & Reference #0: 
 		rouge-1:	P: 22.22	R: 16.67	F1: 19.05
 	Hypothesis #712 & Reference #0: 
-		rouge-1:	P: 35.29	R: 30.00	F1: 32.43
+		rouge-1:	P: 37.50	R: 30.00	F1: 33.33
 	Hypothesis #713 & Reference #0: 
 		rouge-1:	P: 17.39	R: 23.53	F1: 20.00
 	Hypothesis #714 & Reference #0: 
@@ -1460,7 +1460,7 @@ Evaluation with Individual
 	Hypothesis #721 & Reference #0: 
 		rouge-1:	P: 12.50	R: 23.53	F1: 16.33
 	Hypothesis #722 & Reference #0: 
-		rouge-1:	P:  6.25	R:  5.00	F1:  5.56
+		rouge-1:	P:  6.67	R:  5.00	F1:  5.71
 	Hypothesis #723 & Reference #0: 
 		rouge-1:	P: 43.48	R: 71.43	F1: 54.05
 	Hypothesis #724 & Reference #0: 
@@ -1498,7 +1498,7 @@ Evaluation with Individual
 	Hypothesis #740 & Reference #0: 
 		rouge-1:	P: 39.13	R: 29.03	F1: 33.33
 	Hypothesis #741 & Reference #0: 
-		rouge-1:	P: 33.33	R:  5.26	F1:  9.09
+		rouge-1:	P: 40.00	R:  5.26	F1:  9.30
 	Hypothesis #742 & Reference #0: 
 		rouge-1:	P: 11.76	R: 26.67	F1: 16.33
 	Hypothesis #743 & Reference #0: 
@@ -1508,7 +1508,7 @@ Evaluation with Individual
 	Hypothesis #745 & Reference #0: 
 		rouge-1:	P:  6.67	R: 22.22	F1: 10.26
 	Hypothesis #746 & Reference #0: 
-		rouge-1:	P: 42.86	R: 50.00	F1: 46.15
+		rouge-1:	P: 50.00	R: 50.00	F1: 50.00
 	Hypothesis #747 & Reference #0: 
 		rouge-1:	P: 41.18	R: 14.58	F1: 21.54
 	Hypothesis #748 & Reference #0: 
@@ -1522,7 +1522,7 @@ Evaluation with Individual
 	Hypothesis #752 & Reference #0: 
 		rouge-1:	P: 16.67	R: 16.67	F1: 16.67
 	Hypothesis #753 & Reference #0: 
-		rouge-1:	P: 38.10	R: 27.59	F1: 32.00
+		rouge-1:	P: 40.00	R: 27.59	F1: 32.65
 	Hypothesis #754 & Reference #0: 
 		rouge-1:	P: 41.18	R: 46.67	F1: 43.75
 	Hypothesis #755 & Reference #0: 
@@ -1558,7 +1558,7 @@ Evaluation with Individual
 	Hypothesis #770 & Reference #0: 
 		rouge-1:	P: 25.00	R: 38.10	F1: 30.19
 	Hypothesis #771 & Reference #0: 
-		rouge-1:	P: 25.00	R: 44.44	F1: 32.00
+		rouge-1:	P: 26.67	R: 44.44	F1: 33.33
 	Hypothesis #772 & Reference #0: 
 		rouge-1:	P: 29.41	R: 35.71	F1: 32.26
 	Hypothesis #773 & Reference #0: 
@@ -1568,7 +1568,7 @@ Evaluation with Individual
 	Hypothesis #775 & Reference #0: 
 		rouge-1:	P: 15.38	R: 20.00	F1: 17.39
 	Hypothesis #776 & Reference #0: 
-		rouge-1:	P: 18.75	R: 23.08	F1: 20.69
+		rouge-1:	P: 20.00	R: 23.08	F1: 21.43
 	Hypothesis #777 & Reference #0: 
 		rouge-1:	P: 14.00	R: 46.67	F1: 21.54
 	Hypothesis #778 & Reference #0: 
@@ -1576,7 +1576,7 @@ Evaluation with Individual
 	Hypothesis #779 & Reference #0: 
 		rouge-1:	P: 47.83	R: 23.91	F1: 31.88
 	Hypothesis #780 & Reference #0: 
-		rouge-1:	P: 27.27	R: 37.50	F1: 31.58
+		rouge-1:	P: 30.00	R: 37.50	F1: 33.33
 	Hypothesis #781 & Reference #0: 
 		rouge-1:	P: 50.00	R: 58.33	F1: 53.85
 	Hypothesis #782 & Reference #0: 
@@ -1588,7 +1588,7 @@ Evaluation with Individual
 	Hypothesis #785 & Reference #0: 
 		rouge-1:	P: 36.84	R: 63.64	F1: 46.67
 	Hypothesis #786 & Reference #0: 
-		rouge-1:	P: 22.22	R: 23.08	F1: 22.64
+		rouge-1:	P: 23.08	R: 23.08	F1: 23.08
 	Hypothesis #787 & Reference #0: 
 		rouge-1:	P: 28.79	R: 42.22	F1: 34.23
 	Hypothesis #788 & Reference #0: 
@@ -1596,7 +1596,7 @@ Evaluation with Individual
 	Hypothesis #789 & Reference #0: 
 		rouge-1:	P: 28.57	R: 25.00	F1: 26.67
 	Hypothesis #790 & Reference #0: 
-		rouge-1:	P: 22.22	R: 12.50	F1: 16.00
+		rouge-1:	P: 28.57	R: 12.50	F1: 17.39
 	Hypothesis #791 & Reference #0: 
 		rouge-1:	P: 27.78	R: 45.45	F1: 34.48
 	Hypothesis #792 & Reference #0: 
@@ -1622,7 +1622,7 @@ Evaluation with Individual
 	Hypothesis #802 & Reference #0: 
 		rouge-1:	P: 39.13	R: 47.37	F1: 42.86
 	Hypothesis #803 & Reference #0: 
-		rouge-1:	P: 15.38	R:  9.52	F1: 11.76
+		rouge-1:	P: 16.67	R:  9.52	F1: 12.12
 	Hypothesis #804 & Reference #0: 
 		rouge-1:	P:  9.09	R: 25.00	F1: 13.33
 	Hypothesis #805 & Reference #0: 
@@ -1648,14 +1648,14 @@ Evaluation with Individual
 	Hypothesis #815 & Reference #0: 
 		rouge-1:	P: 58.82	R: 90.91	F1: 71.43
 	Hypothesis #816 & Reference #0: 
-		rouge-1:	P: 18.75	R: 60.00	F1: 28.57
+		rouge-1:	P: 13.33	R: 40.00	F1: 20.00
 	Hypothesis #817 & Reference #0: 
 		rouge-1:	P: 24.49	R: 80.00	F1: 37.50
 	Hypothesis #818 & Reference #0: 
-		rouge-1:	P: 54.55	R: 28.57	F1: 37.50
+		rouge-1:	P: 60.00	R: 28.57	F1: 38.71
 
 	Hypothesis #0 & Reference #0: 
-		rouge-2:	P: 14.29	R: 12.50	F1: 13.33
+		rouge-2:	P: 15.38	R: 12.50	F1: 13.79
 	Hypothesis #1 & Reference #0: 
 		rouge-2:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #2 & Reference #0: 
@@ -1739,7 +1739,7 @@ Evaluation with Individual
 	Hypothesis #41 & Reference #0: 
 		rouge-2:	P:  4.76	R: 12.50	F1:  6.90
 	Hypothesis #42 & Reference #0: 
-		rouge-2:	P:  9.52	R: 13.95	F1: 11.32
+		rouge-2:	P:  9.68	R: 13.95	F1: 11.43
 	Hypothesis #43 & Reference #0: 
 		rouge-2:	P: 11.76	R: 25.00	F1: 16.00
 	Hypothesis #44 & Reference #0: 
@@ -1775,7 +1775,7 @@ Evaluation with Individual
 	Hypothesis #59 & Reference #0: 
 		rouge-2:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #60 & Reference #0: 
-		rouge-2:	P:  5.56	R: 20.00	F1:  8.70
+		rouge-2:	P:  5.88	R: 20.00	F1:  9.09
 	Hypothesis #61 & Reference #0: 
 		rouge-2:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #62 & Reference #0: 
@@ -1789,11 +1789,11 @@ Evaluation with Individual
 	Hypothesis #66 & Reference #0: 
 		rouge-2:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #67 & Reference #0: 
-		rouge-2:	P: 10.71	R:  7.14	F1:  8.57
+		rouge-2:	P: 11.11	R:  7.14	F1:  8.70
 	Hypothesis #68 & Reference #0: 
 		rouge-2:	P:  3.45	R:  3.03	F1:  3.23
 	Hypothesis #69 & Reference #0: 
-		rouge-2:	P:  5.26	R:  4.35	F1:  4.76
+		rouge-2:	P:  5.56	R:  4.35	F1:  4.88
 	Hypothesis #70 & Reference #0: 
 		rouge-2:	P:  3.57	R:  7.14	F1:  4.76
 	Hypothesis #71 & Reference #0: 
@@ -1835,7 +1835,7 @@ Evaluation with Individual
 	Hypothesis #89 & Reference #0: 
 		rouge-2:	P: 11.11	R: 23.53	F1: 15.09
 	Hypothesis #90 & Reference #0: 
-		rouge-2:	P: 12.50	R: 66.67	F1: 21.05
+		rouge-2:	P: 13.33	R: 66.67	F1: 22.22
 	Hypothesis #91 & Reference #0: 
 		rouge-2:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #92 & Reference #0: 
@@ -1851,13 +1851,13 @@ Evaluation with Individual
 	Hypothesis #97 & Reference #0: 
 		rouge-2:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #98 & Reference #0: 
-		rouge-2:	P: 17.39	R: 30.77	F1: 22.22
+		rouge-2:	P: 18.18	R: 30.77	F1: 22.86
 	Hypothesis #99 & Reference #0: 
 		rouge-2:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #100 & Reference #0: 
 		rouge-2:	P:  7.41	R: 16.00	F1: 10.13
 	Hypothesis #101 & Reference #0: 
-		rouge-2:	P: 20.00	R: 15.38	F1: 17.39
+		rouge-2:	P: 22.22	R: 15.38	F1: 18.18
 	Hypothesis #102 & Reference #0: 
 		rouge-2:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #103 & Reference #0: 
@@ -1889,7 +1889,7 @@ Evaluation with Individual
 	Hypothesis #116 & Reference #0: 
 		rouge-2:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #117 & Reference #0: 
-		rouge-2:	P:  4.17	R: 12.50	F1:  6.25
+		rouge-2:	P:  4.35	R: 12.50	F1:  6.45
 	Hypothesis #118 & Reference #0: 
 		rouge-2:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #119 & Reference #0: 
@@ -1937,7 +1937,7 @@ Evaluation with Individual
 	Hypothesis #140 & Reference #0: 
 		rouge-2:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #141 & Reference #0: 
-		rouge-2:	P:  5.88	R:  2.70	F1:  3.70
+		rouge-2:	P:  6.25	R:  2.70	F1:  3.77
 	Hypothesis #142 & Reference #0: 
 		rouge-2:	P:  3.70	R:  7.14	F1:  4.88
 	Hypothesis #143 & Reference #0: 
@@ -2021,7 +2021,7 @@ Evaluation with Individual
 	Hypothesis #182 & Reference #0: 
 		rouge-2:	P:  6.67	R: 15.00	F1:  9.23
 	Hypothesis #183 & Reference #0: 
-		rouge-2:	P: 20.83	R: 22.73	F1: 21.74
+		rouge-2:	P: 21.74	R: 22.73	F1: 22.22
 	Hypothesis #184 & Reference #0: 
 		rouge-2:	P: 16.67	R: 13.33	F1: 14.81
 	Hypothesis #185 & Reference #0: 
@@ -2033,7 +2033,7 @@ Evaluation with Individual
 	Hypothesis #188 & Reference #0: 
 		rouge-2:	P: 22.22	R: 14.29	F1: 17.39
 	Hypothesis #189 & Reference #0: 
-		rouge-2:	P:  6.25	R: 12.50	F1:  8.33
+		rouge-2:	P:  6.67	R: 12.50	F1:  8.70
 	Hypothesis #190 & Reference #0: 
 		rouge-2:	P:  3.51	R:  8.33	F1:  4.94
 	Hypothesis #191 & Reference #0: 
@@ -2049,7 +2049,7 @@ Evaluation with Individual
 	Hypothesis #196 & Reference #0: 
 		rouge-2:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #197 & Reference #0: 
-		rouge-2:	P:  2.56	R:  8.33	F1:  3.92
+		rouge-2:	P:  2.63	R:  8.33	F1:  4.00
 	Hypothesis #198 & Reference #0: 
 		rouge-2:	P:  6.67	R: 15.38	F1:  9.30
 	Hypothesis #199 & Reference #0: 
@@ -2093,7 +2093,7 @@ Evaluation with Individual
 	Hypothesis #218 & Reference #0: 
 		rouge-2:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #219 & Reference #0: 
-		rouge-2:	P: 29.17	R: 36.84	F1: 32.56
+		rouge-2:	P: 30.43	R: 36.84	F1: 33.33
 	Hypothesis #220 & Reference #0: 
 		rouge-2:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #221 & Reference #0: 
@@ -2175,7 +2175,7 @@ Evaluation with Individual
 	Hypothesis #259 & Reference #0: 
 		rouge-2:	P:  5.88	R:  4.76	F1:  5.26
 	Hypothesis #260 & Reference #0: 
-		rouge-2:	P: 15.15	R: 14.71	F1: 14.93
+		rouge-2:	P: 16.13	R: 14.71	F1: 15.38
 	Hypothesis #261 & Reference #0: 
 		rouge-2:	P: 14.29	R: 33.33	F1: 20.00
 	Hypothesis #262 & Reference #0: 
@@ -2211,7 +2211,7 @@ Evaluation with Individual
 	Hypothesis #277 & Reference #0: 
 		rouge-2:	P: 13.79	R:  8.89	F1: 10.81
 	Hypothesis #278 & Reference #0: 
-		rouge-2:	P: 10.00	R: 20.00	F1: 13.33
+		rouge-2:	P: 10.53	R: 20.00	F1: 13.79
 	Hypothesis #279 & Reference #0: 
 		rouge-2:	P: 12.82	R: 13.16	F1: 12.99
 	Hypothesis #280 & Reference #0: 
@@ -2291,7 +2291,7 @@ Evaluation with Individual
 	Hypothesis #317 & Reference #0: 
 		rouge-2:	P:  4.17	R: 10.00	F1:  5.88
 	Hypothesis #318 & Reference #0: 
-		rouge-2:	P:  4.55	R:  6.67	F1:  5.41
+		rouge-2:	P:  4.76	R:  6.67	F1:  5.56
 	Hypothesis #319 & Reference #0: 
 		rouge-2:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #320 & Reference #0: 
@@ -2307,7 +2307,7 @@ Evaluation with Individual
 	Hypothesis #325 & Reference #0: 
 		rouge-2:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #326 & Reference #0: 
-		rouge-2:	P: 15.38	R: 28.57	F1: 20.00
+		rouge-2:	P: 16.67	R: 28.57	F1: 21.05
 	Hypothesis #327 & Reference #0: 
 		rouge-2:	P:  7.14	R:  7.14	F1:  7.14
 	Hypothesis #328 & Reference #0: 
@@ -2359,7 +2359,7 @@ Evaluation with Individual
 	Hypothesis #351 & Reference #0: 
 		rouge-2:	P: 25.00	R: 12.00	F1: 16.22
 	Hypothesis #352 & Reference #0: 
-		rouge-2:	P: 23.81	R: 21.74	F1: 22.73
+		rouge-2:	P: 25.00	R: 21.74	F1: 23.26
 	Hypothesis #353 & Reference #0: 
 		rouge-2:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #354 & Reference #0: 
@@ -2427,7 +2427,7 @@ Evaluation with Individual
 	Hypothesis #385 & Reference #0: 
 		rouge-2:	P: 15.38	R: 22.22	F1: 18.18
 	Hypothesis #386 & Reference #0: 
-		rouge-2:	P: 10.00	R: 15.79	F1: 12.24
+		rouge-2:	P: 10.34	R: 15.79	F1: 12.50
 	Hypothesis #387 & Reference #0: 
 		rouge-2:	P: 25.00	R: 31.58	F1: 27.91
 	Hypothesis #388 & Reference #0: 
@@ -2445,7 +2445,7 @@ Evaluation with Individual
 	Hypothesis #394 & Reference #0: 
 		rouge-2:	P: 28.57	R: 22.22	F1: 25.00
 	Hypothesis #395 & Reference #0: 
-		rouge-2:	P:  6.67	R:  4.17	F1:  5.13
+		rouge-2:	P:  7.14	R:  4.17	F1:  5.26
 	Hypothesis #396 & Reference #0: 
 		rouge-2:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #397 & Reference #0: 
@@ -2459,7 +2459,7 @@ Evaluation with Individual
 	Hypothesis #401 & Reference #0: 
 		rouge-2:	P: 16.67	R: 21.43	F1: 18.75
 	Hypothesis #402 & Reference #0: 
-		rouge-2:	P: 16.67	R: 23.08	F1: 19.35
+		rouge-2:	P: 18.75	R: 23.08	F1: 20.69
 	Hypothesis #403 & Reference #0: 
 		rouge-2:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #404 & Reference #0: 
@@ -2579,7 +2579,7 @@ Evaluation with Individual
 	Hypothesis #461 & Reference #0: 
 		rouge-2:	P: 12.50	R:  7.14	F1:  9.09
 	Hypothesis #462 & Reference #0: 
-		rouge-2:	P: 10.71	R: 18.75	F1: 13.64
+		rouge-2:	P: 11.11	R: 18.75	F1: 13.95
 	Hypothesis #463 & Reference #0: 
 		rouge-2:	P: 31.58	R: 52.17	F1: 39.34
 	Hypothesis #464 & Reference #0: 
@@ -2609,7 +2609,7 @@ Evaluation with Individual
 	Hypothesis #476 & Reference #0: 
 		rouge-2:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #477 & Reference #0: 
-		rouge-2:	P: 27.27	R: 20.00	F1: 23.08
+		rouge-2:	P: 28.57	R: 20.00	F1: 23.53
 	Hypothesis #478 & Reference #0: 
 		rouge-2:	P: 20.00	R: 12.50	F1: 15.38
 	Hypothesis #479 & Reference #0: 
@@ -2673,7 +2673,7 @@ Evaluation with Individual
 	Hypothesis #508 & Reference #0: 
 		rouge-2:	P: 12.50	R: 20.00	F1: 15.38
 	Hypothesis #509 & Reference #0: 
-		rouge-2:	P:  6.25	R:  4.35	F1:  5.13
+		rouge-2:	P:  6.67	R:  4.35	F1:  5.26
 	Hypothesis #510 & Reference #0: 
 		rouge-2:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #511 & Reference #0: 
@@ -2779,7 +2779,7 @@ Evaluation with Individual
 	Hypothesis #561 & Reference #0: 
 		rouge-2:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #562 & Reference #0: 
-		rouge-2:	P: 14.29	R: 17.39	F1: 15.69
+		rouge-2:	P: 14.81	R: 17.39	F1: 16.00
 	Hypothesis #563 & Reference #0: 
 		rouge-2:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #564 & Reference #0: 
@@ -2789,7 +2789,7 @@ Evaluation with Individual
 	Hypothesis #566 & Reference #0: 
 		rouge-2:	P: 15.00	R: 60.00	F1: 24.00
 	Hypothesis #567 & Reference #0: 
-		rouge-2:	P: 12.73	R: 22.58	F1: 16.28
+		rouge-2:	P: 12.96	R: 22.58	F1: 16.47
 	Hypothesis #568 & Reference #0: 
 		rouge-2:	P:  6.25	R: 16.67	F1:  9.09
 	Hypothesis #569 & Reference #0: 
@@ -2851,7 +2851,7 @@ Evaluation with Individual
 	Hypothesis #597 & Reference #0: 
 		rouge-2:	P: 13.04	R: 21.43	F1: 16.22
 	Hypothesis #598 & Reference #0: 
-		rouge-2:	P: 18.18	R: 28.57	F1: 22.22
+		rouge-2:	P: 19.05	R: 28.57	F1: 22.86
 	Hypothesis #599 & Reference #0: 
 		rouge-2:	P:  7.14	R: 14.29	F1:  9.52
 	Hypothesis #600 & Reference #0: 
@@ -2921,7 +2921,7 @@ Evaluation with Individual
 	Hypothesis #632 & Reference #0: 
 		rouge-2:	P: 26.67	R: 33.33	F1: 29.63
 	Hypothesis #633 & Reference #0: 
-		rouge-2:	P:  2.78	R:  5.56	F1:  3.70
+		rouge-2:	P:  2.86	R:  5.56	F1:  3.77
 	Hypothesis #634 & Reference #0: 
 		rouge-2:	P:  4.55	R:  2.22	F1:  2.99
 	Hypothesis #635 & Reference #0: 
@@ -2955,7 +2955,7 @@ Evaluation with Individual
 	Hypothesis #649 & Reference #0: 
 		rouge-2:	P:  5.56	R:  6.67	F1:  6.06
 	Hypothesis #650 & Reference #0: 
-		rouge-2:	P:  7.69	R: 33.33	F1: 12.50
+		rouge-2:	P:  8.33	R: 33.33	F1: 13.33
 	Hypothesis #651 & Reference #0: 
 		rouge-2:	P: 22.22	R: 35.29	F1: 27.27
 	Hypothesis #652 & Reference #0: 
@@ -3017,7 +3017,7 @@ Evaluation with Individual
 	Hypothesis #680 & Reference #0: 
 		rouge-2:	P:  4.88	R:  5.13	F1:  5.00
 	Hypothesis #681 & Reference #0: 
-		rouge-2:	P:  9.52	R: 33.33	F1: 14.81
+		rouge-2:	P: 10.00	R: 33.33	F1: 15.38
 	Hypothesis #682 & Reference #0: 
 		rouge-2:	P:  3.33	R:  5.26	F1:  4.08
 	Hypothesis #683 & Reference #0: 
@@ -3161,7 +3161,7 @@ Evaluation with Individual
 	Hypothesis #752 & Reference #0: 
 		rouge-2:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #753 & Reference #0: 
-		rouge-2:	P:  5.00	R:  3.57	F1:  4.17
+		rouge-2:	P:  5.26	R:  3.57	F1:  4.26
 	Hypothesis #754 & Reference #0: 
 		rouge-2:	P: 12.50	R: 14.29	F1: 13.33
 	Hypothesis #755 & Reference #0: 
@@ -3227,7 +3227,7 @@ Evaluation with Individual
 	Hypothesis #785 & Reference #0: 
 		rouge-2:	P:  5.56	R: 10.00	F1:  7.14
 	Hypothesis #786 & Reference #0: 
-		rouge-2:	P:  3.85	R:  4.00	F1:  3.92
+		rouge-2:	P:  4.00	R:  4.00	F1:  4.00
 	Hypothesis #787 & Reference #0: 
 		rouge-2:	P:  7.69	R: 11.36	F1:  9.17
 	Hypothesis #788 & Reference #0: 
@@ -3291,10 +3291,10 @@ Evaluation with Individual
 	Hypothesis #817 & Reference #0: 
 		rouge-2:	P: 20.83	R: 71.43	F1: 32.26
 	Hypothesis #818 & Reference #0: 
-		rouge-2:	P: 30.00	R: 15.00	F1: 20.00
+		rouge-2:	P: 33.33	R: 15.00	F1: 20.69
 
 	Hypothesis #0 & Reference #0: 
-		rouge-3:	P:  7.69	R:  6.67	F1:  7.14
+		rouge-3:	P:  8.33	R:  6.67	F1:  7.41
 	Hypothesis #1 & Reference #0: 
 		rouge-3:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #2 & Reference #0: 
@@ -3378,7 +3378,7 @@ Evaluation with Individual
 	Hypothesis #41 & Reference #0: 
 		rouge-3:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #42 & Reference #0: 
-		rouge-3:	P:  6.45	R:  9.52	F1:  7.69
+		rouge-3:	P:  6.56	R:  9.52	F1:  7.77
 	Hypothesis #43 & Reference #0: 
 		rouge-3:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #44 & Reference #0: 
@@ -3474,7 +3474,7 @@ Evaluation with Individual
 	Hypothesis #89 & Reference #0: 
 		rouge-3:	P:  5.71	R: 12.50	F1:  7.84
 	Hypothesis #90 & Reference #0: 
-		rouge-3:	P:  6.67	R: 50.00	F1: 11.76
+		rouge-3:	P:  7.14	R: 50.00	F1: 12.50
 	Hypothesis #91 & Reference #0: 
 		rouge-3:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #92 & Reference #0: 
@@ -3490,13 +3490,13 @@ Evaluation with Individual
 	Hypothesis #97 & Reference #0: 
 		rouge-3:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #98 & Reference #0: 
-		rouge-3:	P: 13.64	R: 25.00	F1: 17.65
+		rouge-3:	P: 14.29	R: 25.00	F1: 18.18
 	Hypothesis #99 & Reference #0: 
 		rouge-3:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #100 & Reference #0: 
 		rouge-3:	P:  1.89	R:  4.17	F1:  2.60
 	Hypothesis #101 & Reference #0: 
-		rouge-3:	P: 11.11	R:  8.33	F1:  9.52
+		rouge-3:	P: 12.50	R:  8.33	F1: 10.00
 	Hypothesis #102 & Reference #0: 
 		rouge-3:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #103 & Reference #0: 
@@ -3660,7 +3660,7 @@ Evaluation with Individual
 	Hypothesis #182 & Reference #0: 
 		rouge-3:	P:  2.27	R:  5.26	F1:  3.17
 	Hypothesis #183 & Reference #0: 
-		rouge-3:	P:  8.70	R:  9.52	F1:  9.09
+		rouge-3:	P:  9.09	R:  9.52	F1:  9.30
 	Hypothesis #184 & Reference #0: 
 		rouge-3:	P:  9.09	R:  7.14	F1:  8.00
 	Hypothesis #185 & Reference #0: 
@@ -3732,7 +3732,7 @@ Evaluation with Individual
 	Hypothesis #218 & Reference #0: 
 		rouge-3:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #219 & Reference #0: 
-		rouge-3:	P: 26.09	R: 33.33	F1: 29.27
+		rouge-3:	P: 27.27	R: 33.33	F1: 30.00
 	Hypothesis #220 & Reference #0: 
 		rouge-3:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #221 & Reference #0: 
@@ -3814,7 +3814,7 @@ Evaluation with Individual
 	Hypothesis #259 & Reference #0: 
 		rouge-3:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #260 & Reference #0: 
-		rouge-3:	P:  6.25	R:  6.06	F1:  6.15
+		rouge-3:	P:  6.67	R:  6.06	F1:  6.35
 	Hypothesis #261 & Reference #0: 
 		rouge-3:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #262 & Reference #0: 
@@ -3850,7 +3850,7 @@ Evaluation with Individual
 	Hypothesis #277 & Reference #0: 
 		rouge-3:	P: 10.71	R:  6.82	F1:  8.33
 	Hypothesis #278 & Reference #0: 
-		rouge-3:	P:  5.26	R: 11.11	F1:  7.14
+		rouge-3:	P:  5.56	R: 11.11	F1:  7.41
 	Hypothesis #279 & Reference #0: 
 		rouge-3:	P:  5.26	R:  5.41	F1:  5.33
 	Hypothesis #280 & Reference #0: 
@@ -3946,7 +3946,7 @@ Evaluation with Individual
 	Hypothesis #325 & Reference #0: 
 		rouge-3:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #326 & Reference #0: 
-		rouge-3:	P:  8.33	R: 16.67	F1: 11.11
+		rouge-3:	P:  9.09	R: 16.67	F1: 11.76
 	Hypothesis #327 & Reference #0: 
 		rouge-3:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #328 & Reference #0: 
@@ -3998,7 +3998,7 @@ Evaluation with Individual
 	Hypothesis #351 & Reference #0: 
 		rouge-3:	P: 18.18	R:  8.33	F1: 11.43
 	Hypothesis #352 & Reference #0: 
-		rouge-3:	P: 20.00	R: 18.18	F1: 19.05
+		rouge-3:	P: 21.05	R: 18.18	F1: 19.51
 	Hypothesis #353 & Reference #0: 
 		rouge-3:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #354 & Reference #0: 
@@ -4066,7 +4066,7 @@ Evaluation with Individual
 	Hypothesis #385 & Reference #0: 
 		rouge-3:	P:  8.33	R: 12.50	F1: 10.00
 	Hypothesis #386 & Reference #0: 
-		rouge-3:	P:  3.45	R:  5.56	F1:  4.26
+		rouge-3:	P:  3.57	R:  5.56	F1:  4.35
 	Hypothesis #387 & Reference #0: 
 		rouge-3:	P: 13.04	R: 16.67	F1: 14.63
 	Hypothesis #388 & Reference #0: 
@@ -4098,7 +4098,7 @@ Evaluation with Individual
 	Hypothesis #401 & Reference #0: 
 		rouge-3:	P: 11.76	R: 15.38	F1: 13.33
 	Hypothesis #402 & Reference #0: 
-		rouge-3:	P:  5.88	R:  8.33	F1:  6.90
+		rouge-3:	P:  6.67	R:  8.33	F1:  7.41
 	Hypothesis #403 & Reference #0: 
 		rouge-3:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #404 & Reference #0: 
@@ -4218,7 +4218,7 @@ Evaluation with Individual
 	Hypothesis #461 & Reference #0: 
 		rouge-3:	P:  6.67	R:  3.70	F1:  4.76
 	Hypothesis #462 & Reference #0: 
-		rouge-3:	P:  7.41	R: 13.33	F1:  9.52
+		rouge-3:	P:  7.69	R: 13.33	F1:  9.76
 	Hypothesis #463 & Reference #0: 
 		rouge-3:	P: 27.03	R: 45.45	F1: 33.90
 	Hypothesis #464 & Reference #0: 
@@ -4248,7 +4248,7 @@ Evaluation with Individual
 	Hypothesis #476 & Reference #0: 
 		rouge-3:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #477 & Reference #0: 
-		rouge-3:	P: 19.05	R: 13.79	F1: 16.00
+		rouge-3:	P: 20.00	R: 13.79	F1: 16.33
 	Hypothesis #478 & Reference #0: 
 		rouge-3:	P: 10.53	R:  6.45	F1:  8.00
 	Hypothesis #479 & Reference #0: 
@@ -4418,7 +4418,7 @@ Evaluation with Individual
 	Hypothesis #561 & Reference #0: 
 		rouge-3:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #562 & Reference #0: 
-		rouge-3:	P:  3.70	R:  4.55	F1:  4.08
+		rouge-3:	P:  3.85	R:  4.55	F1:  4.17
 	Hypothesis #563 & Reference #0: 
 		rouge-3:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #564 & Reference #0: 
@@ -4428,7 +4428,7 @@ Evaluation with Individual
 	Hypothesis #566 & Reference #0: 
 		rouge-3:	P: 10.53	R: 50.00	F1: 17.39
 	Hypothesis #567 & Reference #0: 
-		rouge-3:	P:  1.85	R:  3.33	F1:  2.38
+		rouge-3:	P:  1.89	R:  3.33	F1:  2.41
 	Hypothesis #568 & Reference #0: 
 		rouge-3:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #569 & Reference #0: 
@@ -4490,7 +4490,7 @@ Evaluation with Individual
 	Hypothesis #597 & Reference #0: 
 		rouge-3:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #598 & Reference #0: 
-		rouge-3:	P:  9.52	R: 15.38	F1: 11.76
+		rouge-3:	P: 10.00	R: 15.38	F1: 12.12
 	Hypothesis #599 & Reference #0: 
 		rouge-3:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #600 & Reference #0: 
@@ -4656,7 +4656,7 @@ Evaluation with Individual
 	Hypothesis #680 & Reference #0: 
 		rouge-3:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #681 & Reference #0: 
-		rouge-3:	P:  5.00	R: 20.00	F1:  8.00
+		rouge-3:	P:  5.26	R: 20.00	F1:  8.33
 	Hypothesis #682 & Reference #0: 
 		rouge-3:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #683 & Reference #0: 
@@ -4930,7 +4930,7 @@ Evaluation with Individual
 	Hypothesis #817 & Reference #0: 
 		rouge-3:	P: 19.15	R: 69.23	F1: 30.00
 	Hypothesis #818 & Reference #0: 
-		rouge-3:	P: 11.11	R:  5.26	F1:  7.14
+		rouge-3:	P: 12.50	R:  5.26	F1:  7.41
 
 	Hypothesis #0 & Reference #0: 
 		rouge-4:	P:  0.00	R:  0.00	F1:  0.00
@@ -5017,7 +5017,7 @@ Evaluation with Individual
 	Hypothesis #41 & Reference #0: 
 		rouge-4:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #42 & Reference #0: 
-		rouge-4:	P:  4.92	R:  7.32	F1:  5.88
+		rouge-4:	P:  5.00	R:  7.32	F1:  5.94
 	Hypothesis #43 & Reference #0: 
 		rouge-4:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #44 & Reference #0: 
@@ -5129,7 +5129,7 @@ Evaluation with Individual
 	Hypothesis #97 & Reference #0: 
 		rouge-4:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #98 & Reference #0: 
-		rouge-4:	P:  9.52	R: 18.18	F1: 12.50
+		rouge-4:	P: 10.00	R: 18.18	F1: 12.90
 	Hypothesis #99 & Reference #0: 
 		rouge-4:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #100 & Reference #0: 
@@ -5299,7 +5299,7 @@ Evaluation with Individual
 	Hypothesis #182 & Reference #0: 
 		rouge-4:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #183 & Reference #0: 
-		rouge-4:	P:  4.55	R:  5.00	F1:  4.76
+		rouge-4:	P:  4.76	R:  5.00	F1:  4.88
 	Hypothesis #184 & Reference #0: 
 		rouge-4:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #185 & Reference #0: 
@@ -5371,7 +5371,7 @@ Evaluation with Individual
 	Hypothesis #218 & Reference #0: 
 		rouge-4:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #219 & Reference #0: 
-		rouge-4:	P: 22.73	R: 29.41	F1: 25.64
+		rouge-4:	P: 23.81	R: 29.41	F1: 26.32
 	Hypothesis #220 & Reference #0: 
 		rouge-4:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #221 & Reference #0: 
@@ -5637,7 +5637,7 @@ Evaluation with Individual
 	Hypothesis #351 & Reference #0: 
 		rouge-4:	P: 10.00	R:  4.35	F1:  6.06
 	Hypothesis #352 & Reference #0: 
-		rouge-4:	P: 15.79	R: 14.29	F1: 15.00
+		rouge-4:	P: 16.67	R: 14.29	F1: 15.38
 	Hypothesis #353 & Reference #0: 
 		rouge-4:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #354 & Reference #0: 
@@ -5857,7 +5857,7 @@ Evaluation with Individual
 	Hypothesis #461 & Reference #0: 
 		rouge-4:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #462 & Reference #0: 
-		rouge-4:	P:  3.85	R:  7.14	F1:  5.00
+		rouge-4:	P:  4.00	R:  7.14	F1:  5.13
 	Hypothesis #463 & Reference #0: 
 		rouge-4:	P: 22.22	R: 38.10	F1: 28.07
 	Hypothesis #464 & Reference #0: 
@@ -5887,7 +5887,7 @@ Evaluation with Individual
 	Hypothesis #476 & Reference #0: 
 		rouge-4:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #477 & Reference #0: 
-		rouge-4:	P: 10.00	R:  7.14	F1:  8.33
+		rouge-4:	P: 10.53	R:  7.14	F1:  8.51
 	Hypothesis #478 & Reference #0: 
 		rouge-4:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #479 & Reference #0: 
@@ -6129,7 +6129,7 @@ Evaluation with Individual
 	Hypothesis #597 & Reference #0: 
 		rouge-4:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #598 & Reference #0: 
-		rouge-4:	P:  5.00	R:  8.33	F1:  6.25
+		rouge-4:	P:  5.26	R:  8.33	F1:  6.45
 	Hypothesis #599 & Reference #0: 
 		rouge-4:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #600 & Reference #0: 
@@ -6572,7 +6572,7 @@ Evaluation with Individual
 		rouge-4:	P:  0.00	R:  0.00	F1:  0.00
 
 	Hypothesis #0 & Reference #0: 
-		rouge-l:	P: 40.03	R: 36.07	F1: 37.95
+		rouge-l:	P: 42.40	R: 36.07	F1: 38.98
 	Hypothesis #1 & Reference #0: 
 		rouge-l:	P: 17.68	R: 22.47	F1: 19.79
 	Hypothesis #2 & Reference #0: 
@@ -6584,7 +6584,7 @@ Evaluation with Individual
 	Hypothesis #5 & Reference #0: 
 		rouge-l:	P: 35.49	R: 32.87	F1: 34.13
 	Hypothesis #6 & Reference #0: 
-		rouge-l:	P: 17.68	R: 18.65	F1: 18.15
+		rouge-l:	P: 21.72	R: 18.65	F1: 20.07
 	Hypothesis #7 & Reference #0: 
 		rouge-l:	P: 13.56	R: 29.47	F1: 18.57
 	Hypothesis #8 & Reference #0: 
@@ -6604,7 +6604,7 @@ Evaluation with Individual
 	Hypothesis #15 & Reference #0: 
 		rouge-l:	P: 26.15	R: 12.91	F1: 17.29
 	Hypothesis #16 & Reference #0: 
-		rouge-l:	P: 26.15	R: 40.03	F1: 31.64
+		rouge-l:	P: 27.70	R: 40.03	F1: 32.74
 	Hypothesis #17 & Reference #0: 
 		rouge-l:	P: 21.02	R: 30.44	F1: 24.87
 	Hypothesis #18 & Reference #0: 
@@ -6624,7 +6624,7 @@ Evaluation with Individual
 	Hypothesis #25 & Reference #0: 
 		rouge-l:	P:  8.99	R:  6.62	F1:  7.63
 	Hypothesis #26 & Reference #0: 
-		rouge-l:	P:  8.24	R: 16.02	F1: 10.88
+		rouge-l:	P:  8.99	R: 16.02	F1: 11.52
 	Hypothesis #27 & Reference #0: 
 		rouge-l:	P: 22.47	R: 43.51	F1: 29.63
 	Hypothesis #28 & Reference #0: 
@@ -6656,11 +6656,11 @@ Evaluation with Individual
 	Hypothesis #41 & Reference #0: 
 		rouge-l:	P: 24.16	R: 50.88	F1: 32.76
 	Hypothesis #42 & Reference #0: 
-		rouge-l:	P: 26.49	R: 36.20	F1: 30.60
+		rouge-l:	P: 26.84	R: 36.20	F1: 30.83
 	Hypothesis #43 & Reference #0: 
 		rouge-l:	P: 28.55	R: 50.88	F1: 36.58
 	Hypothesis #44 & Reference #0: 
-		rouge-l:	P: 22.47	R: 24.78	F1: 23.57
+		rouge-l:	P: 23.56	R: 24.78	F1: 24.16
 	Hypothesis #45 & Reference #0: 
 		rouge-l:	P: 26.15	R: 40.03	F1: 31.64
 	Hypothesis #46 & Reference #0: 
@@ -6674,7 +6674,7 @@ Evaluation with Individual
 	Hypothesis #50 & Reference #0: 
 		rouge-l:	P: 24.16	R: 31.50	F1: 27.34
 	Hypothesis #51 & Reference #0: 
-		rouge-l:	P: 17.68	R: 22.47	F1: 19.79
+		rouge-l:	P: 18.65	R: 22.47	F1: 20.38
 	Hypothesis #52 & Reference #0: 
 		rouge-l:	P: 26.90	R: 49.36	F1: 34.82
 	Hypothesis #53 & Reference #0: 
@@ -6692,7 +6692,7 @@ Evaluation with Individual
 	Hypothesis #59 & Reference #0: 
 		rouge-l:	P: 26.15	R: 18.65	F1: 21.78
 	Hypothesis #60 & Reference #0: 
-		rouge-l:	P: 21.48	R: 56.12	F1: 31.07
+		rouge-l:	P: 22.47	R: 56.12	F1: 32.09
 	Hypothesis #61 & Reference #0: 
 		rouge-l:	P: 29.47	R: 27.70	F1: 28.56
 	Hypothesis #62 & Reference #0: 
@@ -6700,17 +6700,17 @@ Evaluation with Individual
 	Hypothesis #63 & Reference #0: 
 		rouge-l:	P: 63.12	R: 57.38	F1: 60.12
 	Hypothesis #64 & Reference #0: 
-		rouge-l:	P: 14.09	R: 17.23	F1: 15.50
+		rouge-l:	P: 14.38	R: 17.23	F1: 15.68
 	Hypothesis #65 & Reference #0: 
 		rouge-l:	P: 37.94	R: 32.87	F1: 35.22
 	Hypothesis #66 & Reference #0: 
 		rouge-l:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #67 & Reference #0: 
-		rouge-l:	P: 26.90	R: 19.37	F1: 22.53
+		rouge-l:	P: 27.70	R: 19.37	F1: 22.80
 	Hypothesis #68 & Reference #0: 
 		rouge-l:	P: 26.15	R: 23.56	F1: 24.79
 	Hypothesis #69 & Reference #0: 
-		rouge-l:	P: 14.68	R: 12.61	F1: 13.57
+		rouge-l:	P: 15.32	R: 12.61	F1: 13.83
 	Hypothesis #70 & Reference #0: 
 		rouge-l:	P: 30.59	R: 52.99	F1: 38.79
 	Hypothesis #71 & Reference #0: 
@@ -6732,7 +6732,7 @@ Evaluation with Individual
 	Hypothesis #79 & Reference #0: 
 		rouge-l:	P:  7.61	R:  8.60	F1:  8.07
 	Hypothesis #80 & Reference #0: 
-		rouge-l:	P: 29.47	R: 33.87	F1: 31.51
+		rouge-l:	P: 31.50	R: 33.87	F1: 32.64
 	Hypothesis #81 & Reference #0: 
 		rouge-l:	P: 22.47	R: 15.32	F1: 18.22
 	Hypothesis #82 & Reference #0: 
@@ -6752,7 +6752,7 @@ Evaluation with Individual
 	Hypothesis #89 & Reference #0: 
 		rouge-l:	P: 27.91	R: 50.88	F1: 36.04
 	Hypothesis #90 & Reference #0: 
-		rouge-l:	P: 29.95	R: 100.00	F1: 46.09
+		rouge-l:	P: 31.50	R: 100.00	F1: 47.91
 	Hypothesis #91 & Reference #0: 
 		rouge-l:	P: 22.47	R: 15.32	F1: 18.22
 	Hypothesis #92 & Reference #0: 
@@ -6768,13 +6768,13 @@ Evaluation with Individual
 	Hypothesis #97 & Reference #0: 
 		rouge-l:	P: 14.28	R: 23.56	F1: 17.78
 	Hypothesis #98 & Reference #0: 
-		rouge-l:	P: 40.03	R: 62.73	F1: 48.87
+		rouge-l:	P: 41.48	R: 62.73	F1: 49.94
 	Hypothesis #99 & Reference #0: 
 		rouge-l:	P: 25.11	R: 27.30	F1: 26.16
 	Hypothesis #100 & Reference #0: 
 		rouge-l:	P: 20.06	R: 37.45	F1: 26.12
 	Hypothesis #101 & Reference #0: 
-		rouge-l:	P: 60.34	R: 49.36	F1: 54.30
+		rouge-l:	P: 56.12	R: 42.40	F1: 48.31
 	Hypothesis #102 & Reference #0: 
 		rouge-l:	P: 28.55	R: 56.12	F1: 37.85
 	Hypothesis #103 & Reference #0: 
@@ -6806,7 +6806,7 @@ Evaluation with Individual
 	Hypothesis #116 & Reference #0: 
 		rouge-l:	P: 17.23	R: 21.72	F1: 19.21
 	Hypothesis #117 & Reference #0: 
-		rouge-l:	P: 21.72	R: 50.88	F1: 30.44
+		rouge-l:	P: 22.47	R: 50.88	F1: 31.17
 	Hypothesis #118 & Reference #0: 
 		rouge-l:	P: 22.47	R: 30.24	F1: 25.78
 	Hypothesis #119 & Reference #0: 
@@ -6818,9 +6818,9 @@ Evaluation with Individual
 	Hypothesis #122 & Reference #0: 
 		rouge-l:	P: 17.68	R: 24.16	F1: 20.42
 	Hypothesis #123 & Reference #0: 
-		rouge-l:	P: 24.16	R: 28.55	F1: 26.17
+		rouge-l:	P: 28.55	R: 28.55	F1: 28.55
 	Hypothesis #124 & Reference #0: 
-		rouge-l:	P: 46.60	R: 43.04	F1: 44.75
+		rouge-l:	P: 40.03	R: 33.87	F1: 36.69
 	Hypothesis #125 & Reference #0: 
 		rouge-l:	P: 52.50	R: 52.50	F1: 52.50
 	Hypothesis #126 & Reference #0: 
@@ -6854,7 +6854,7 @@ Evaluation with Individual
 	Hypothesis #140 & Reference #0: 
 		rouge-l:	P: 44.16	R: 100.00	F1: 61.26
 	Hypothesis #141 & Reference #0: 
-		rouge-l:	P: 28.55	R: 15.32	F1: 19.94
+		rouge-l:	P: 29.95	R: 15.32	F1: 20.27
 	Hypothesis #142 & Reference #0: 
 		rouge-l:	P: 19.76	R: 33.24	F1: 24.78
 	Hypothesis #143 & Reference #0: 
@@ -6894,7 +6894,7 @@ Evaluation with Individual
 	Hypothesis #160 & Reference #0: 
 		rouge-l:	P:  8.24	R: 19.76	F1: 11.63
 	Hypothesis #161 & Reference #0: 
-		rouge-l:	P: 13.56	R: 28.55	F1: 18.39
+		rouge-l:	P: 14.09	R: 28.55	F1: 18.87
 	Hypothesis #162 & Reference #0: 
 		rouge-l:	P: 28.55	R: 28.55	F1: 28.55
 	Hypothesis #163 & Reference #0: 
@@ -6934,11 +6934,11 @@ Evaluation with Individual
 	Hypothesis #180 & Reference #0: 
 		rouge-l:	P: 27.30	R: 25.11	F1: 26.16
 	Hypothesis #181 & Reference #0: 
-		rouge-l:	P: 40.03	R: 19.19	F1: 25.94
+		rouge-l:	P: 33.87	R: 15.10	F1: 20.89
 	Hypothesis #182 & Reference #0: 
 		rouge-l:	P: 18.32	R: 35.21	F1: 24.10
 	Hypothesis #183 & Reference #0: 
-		rouge-l:	P: 46.60	R: 49.95	F1: 48.22
+		rouge-l:	P: 48.21	R: 49.95	F1: 49.07
 	Hypothesis #184 & Reference #0: 
 		rouge-l:	P: 37.45	R: 31.50	F1: 34.22
 	Hypothesis #185 & Reference #0: 
@@ -6950,7 +6950,7 @@ Evaluation with Individual
 	Hypothesis #188 & Reference #0: 
 		rouge-l:	P: 48.63	R: 34.19	F1: 40.15
 	Hypothesis #189 & Reference #0: 
-		rouge-l:	P: 23.56	R: 40.03	F1: 29.66
+		rouge-l:	P: 24.78	R: 40.03	F1: 30.61
 	Hypothesis #190 & Reference #0: 
 		rouge-l:	P: 19.19	R: 38.69	F1: 25.65
 	Hypothesis #191 & Reference #0: 
@@ -6966,7 +6966,7 @@ Evaluation with Individual
 	Hypothesis #196 & Reference #0: 
 		rouge-l:	P:  9.92	R:  7.61	F1:  8.61
 	Hypothesis #197 & Reference #0: 
-		rouge-l:	P: 14.68	R: 37.45	F1: 21.09
+		rouge-l:	P: 14.99	R: 37.45	F1: 21.41
 	Hypothesis #198 & Reference #0: 
 		rouge-l:	P: 28.94	R: 56.12	F1: 38.19
 	Hypothesis #199 & Reference #0: 
@@ -6990,13 +6990,13 @@ Evaluation with Individual
 	Hypothesis #208 & Reference #0: 
 		rouge-l:	P: 17.83	R: 35.21	F1: 23.67
 	Hypothesis #209 & Reference #0: 
-		rouge-l:	P: 27.30	R: 40.03	F1: 32.46
+		rouge-l:	P: 28.55	R: 40.03	F1: 33.33
 	Hypothesis #210 & Reference #0: 
 		rouge-l:	P: 27.47	R: 35.82	F1: 31.09
 	Hypothesis #211 & Reference #0: 
 		rouge-l:	P: 21.02	R: 26.15	F1: 23.31
 	Hypothesis #212 & Reference #0: 
-		rouge-l:	P: 40.03	R: 26.15	F1: 31.64
+		rouge-l:	P: 46.60	R: 26.15	F1: 33.50
 	Hypothesis #213 & Reference #0: 
 		rouge-l:	P: 20.24	R: 40.03	F1: 26.89
 	Hypothesis #214 & Reference #0: 
@@ -7010,7 +7010,7 @@ Evaluation with Individual
 	Hypothesis #218 & Reference #0: 
 		rouge-l:	P: 19.76	R: 21.02	F1: 20.37
 	Hypothesis #219 & Reference #0: 
-		rouge-l:	P: 42.68	R: 51.41	F1: 46.64
+		rouge-l:	P: 44.16	R: 51.41	F1: 47.51
 	Hypothesis #220 & Reference #0: 
 		rouge-l:	P: 30.24	R: 24.53	F1: 27.09
 	Hypothesis #221 & Reference #0: 
@@ -7072,7 +7072,7 @@ Evaluation with Individual
 	Hypothesis #249 & Reference #0: 
 		rouge-l:	P: 20.58	R: 31.50	F1: 24.89
 	Hypothesis #250 & Reference #0: 
-		rouge-l:	P: 21.48	R: 23.56	F1: 22.47
+		rouge-l:	P: 22.47	R: 23.56	F1: 23.00
 	Hypothesis #251 & Reference #0: 
 		rouge-l:	P: 53.36	R: 76.69	F1: 62.93
 	Hypothesis #252 & Reference #0: 
@@ -7092,7 +7092,7 @@ Evaluation with Individual
 	Hypothesis #259 & Reference #0: 
 		rouge-l:	P: 28.55	R: 24.16	F1: 26.17
 	Hypothesis #260 & Reference #0: 
-		rouge-l:	P: 36.07	R: 35.21	F1: 35.63
+		rouge-l:	P: 37.94	R: 35.21	F1: 36.52
 	Hypothesis #261 & Reference #0: 
 		rouge-l:	P: 31.50	R: 56.12	F1: 40.35
 	Hypothesis #262 & Reference #0: 
@@ -7124,15 +7124,15 @@ Evaluation with Individual
 	Hypothesis #275 & Reference #0: 
 		rouge-l:	P: 29.47	R: 49.36	F1: 36.90
 	Hypothesis #276 & Reference #0: 
-		rouge-l:	P: 31.50	R: 24.16	F1: 27.34
+		rouge-l:	P: 35.21	R: 24.16	F1: 28.65
 	Hypothesis #277 & Reference #0: 
 		rouge-l:	P: 26.15	R: 18.32	F1: 21.54
 	Hypothesis #278 & Reference #0: 
-		rouge-l:	P: 35.21	R: 60.34	F1: 44.47
+		rouge-l:	P: 36.67	R: 60.34	F1: 45.62
 	Hypothesis #279 & Reference #0: 
 		rouge-l:	P: 34.10	R: 34.83	F1: 34.46
 	Hypothesis #280 & Reference #0: 
-		rouge-l:	P: 28.55	R: 12.61	F1: 17.49
+		rouge-l:	P: 31.50	R: 12.61	F1: 18.01
 	Hypothesis #281 & Reference #0: 
 		rouge-l:	P:  6.84	R: 11.80	F1:  8.66
 	Hypothesis #282 & Reference #0: 
@@ -7142,7 +7142,7 @@ Evaluation with Individual
 	Hypothesis #284 & Reference #0: 
 		rouge-l:	P: 21.72	R: 17.68	F1: 19.49
 	Hypothesis #285 & Reference #0: 
-		rouge-l:	P: 24.78	R: 14.28	F1: 18.12
+		rouge-l:	P: 26.15	R: 14.28	F1: 18.48
 	Hypothesis #286 & Reference #0: 
 		rouge-l:	P: 16.81	R: 11.80	F1: 13.86
 	Hypothesis #287 & Reference #0: 
@@ -7152,7 +7152,7 @@ Evaluation with Individual
 	Hypothesis #289 & Reference #0: 
 		rouge-l:	P: 14.09	R: 13.06	F1: 13.56
 	Hypothesis #290 & Reference #0: 
-		rouge-l:	P: 19.76	R: 21.02	F1: 20.37
+		rouge-l:	P: 21.02	R: 21.02	F1: 21.02
 	Hypothesis #291 & Reference #0: 
 		rouge-l:	P: 27.70	R: 20.16	F1: 23.34
 	Hypothesis #292 & Reference #0: 
@@ -7186,7 +7186,7 @@ Evaluation with Individual
 	Hypothesis #306 & Reference #0: 
 		rouge-l:	P: 34.10	R: 54.08	F1: 41.83
 	Hypothesis #307 & Reference #0: 
-		rouge-l:	P: 17.68	R: 28.55	F1: 21.84
+		rouge-l:	P: 18.65	R: 28.55	F1: 22.57
 	Hypothesis #308 & Reference #0: 
 		rouge-l:	P: 26.15	R: 21.29	F1: 23.47
 	Hypothesis #309 & Reference #0: 
@@ -7194,7 +7194,7 @@ Evaluation with Individual
 	Hypothesis #310 & Reference #0: 
 		rouge-l:	P: 45.10	R: 32.87	F1: 38.03
 	Hypothesis #311 & Reference #0: 
-		rouge-l:	P: 18.32	R: 20.58	F1: 19.38
+		rouge-l:	P: 19.01	R: 20.58	F1: 19.76
 	Hypothesis #312 & Reference #0: 
 		rouge-l:	P: 20.37	R: 46.60	F1: 28.34
 	Hypothesis #313 & Reference #0: 
@@ -7208,7 +7208,7 @@ Evaluation with Individual
 	Hypothesis #317 & Reference #0: 
 		rouge-l:	P: 26.15	R: 51.84	F1: 34.77
 	Hypothesis #318 & Reference #0: 
-		rouge-l:	P: 28.04	R: 37.94	F1: 32.24
+		rouge-l:	P: 29.09	R: 37.94	F1: 32.93
 	Hypothesis #319 & Reference #0: 
 		rouge-l:	P: 17.68	R: 35.21	F1: 23.54
 	Hypothesis #320 & Reference #0: 
@@ -7224,7 +7224,7 @@ Evaluation with Individual
 	Hypothesis #325 & Reference #0: 
 		rouge-l:	P: 23.56	R: 29.47	F1: 26.19
 	Hypothesis #326 & Reference #0: 
-		rouge-l:	P: 35.21	R: 56.12	F1: 43.27
+		rouge-l:	P: 37.45	R: 56.12	F1: 44.92
 	Hypothesis #327 & Reference #0: 
 		rouge-l:	P: 33.24	R: 33.24	F1: 33.24
 	Hypothesis #328 & Reference #0: 
@@ -7276,7 +7276,7 @@ Evaluation with Individual
 	Hypothesis #351 & Reference #0: 
 		rouge-l:	P: 52.50	R: 29.47	F1: 37.75
 	Hypothesis #352 & Reference #0: 
-		rouge-l:	P: 43.04	R: 40.03	F1: 41.48
+		rouge-l:	P: 44.74	R: 40.03	F1: 42.26
 	Hypothesis #353 & Reference #0: 
 		rouge-l:	P: 11.55	R: 15.55	F1: 13.25
 	Hypothesis #354 & Reference #0: 
@@ -7284,7 +7284,7 @@ Evaluation with Individual
 	Hypothesis #355 & Reference #0: 
 		rouge-l:	P: 31.50	R: 24.78	F1: 27.74
 	Hypothesis #356 & Reference #0: 
-		rouge-l:	P: 12.61	R: 46.60	F1: 19.85
+		rouge-l:	P: 13.06	R: 46.60	F1: 20.41
 	Hypothesis #357 & Reference #0: 
 		rouge-l:	P: 26.84	R: 46.01	F1: 33.91
 	Hypothesis #358 & Reference #0: 
@@ -7334,7 +7334,7 @@ Evaluation with Individual
 	Hypothesis #380 & Reference #0: 
 		rouge-l:	P: 44.16	R: 37.72	F1: 40.68
 	Hypothesis #381 & Reference #0: 
-		rouge-l:	P: 19.76	R: 31.50	F1: 24.28
+		rouge-l:	P: 22.47	R: 31.50	F1: 26.23
 	Hypothesis #382 & Reference #0: 
 		rouge-l:	P: 35.21	R: 29.47	F1: 32.08
 	Hypothesis #383 & Reference #0: 
@@ -7344,7 +7344,7 @@ Evaluation with Individual
 	Hypothesis #385 & Reference #0: 
 		rouge-l:	P: 27.70	R: 36.67	F1: 31.56
 	Hypothesis #386 & Reference #0: 
-		rouge-l:	P: 35.68	R: 51.41	F1: 42.12
+		rouge-l:	P: 36.67	R: 51.41	F1: 42.80
 	Hypothesis #387 & Reference #0: 
 		rouge-l:	P: 38.69	R: 46.60	F1: 42.28
 	Hypothesis #388 & Reference #0: 
@@ -7362,7 +7362,7 @@ Evaluation with Individual
 	Hypothesis #394 & Reference #0: 
 		rouge-l:	P: 56.12	R: 45.91	F1: 50.50
 	Hypothesis #395 & Reference #0: 
-		rouge-l:	P: 31.50	R: 21.72	F1: 25.71
+		rouge-l:	P: 33.24	R: 21.72	F1: 26.27
 	Hypothesis #396 & Reference #0: 
 		rouge-l:	P: 12.61	R: 10.47	F1: 11.44
 	Hypothesis #397 & Reference #0: 
@@ -7376,9 +7376,9 @@ Evaluation with Individual
 	Hypothesis #401 & Reference #0: 
 		rouge-l:	P: 32.87	R: 40.03	F1: 36.10
 	Hypothesis #402 & Reference #0: 
-		rouge-l:	P: 38.27	R: 49.36	F1: 43.11
+		rouge-l:	P: 41.98	R: 49.36	F1: 45.37
 	Hypothesis #403 & Reference #0: 
-		rouge-l:	P: 31.50	R: 43.04	F1: 36.38
+		rouge-l:	P: 26.15	R: 33.87	F1: 29.51
 	Hypothesis #404 & Reference #0: 
 		rouge-l:	P: 40.03	R: 27.47	F1: 32.58
 	Hypothesis #405 & Reference #0: 
@@ -7400,7 +7400,7 @@ Evaluation with Individual
 	Hypothesis #413 & Reference #0: 
 		rouge-l:	P: 28.85	R: 33.87	F1: 31.16
 	Hypothesis #414 & Reference #0: 
-		rouge-l:	P: 31.50	R: 31.50	F1: 31.50
+		rouge-l:	P: 33.87	R: 31.50	F1: 32.64
 	Hypothesis #415 & Reference #0: 
 		rouge-l:	P: 50.88	R: 21.72	F1: 30.44
 	Hypothesis #416 & Reference #0: 
@@ -7424,7 +7424,7 @@ Evaluation with Individual
 	Hypothesis #425 & Reference #0: 
 		rouge-l:	P: 20.30	R: 38.84	F1: 26.66
 	Hypothesis #426 & Reference #0: 
-		rouge-l:	P: 27.70	R: 16.54	F1: 20.71
+		rouge-l:	P: 29.47	R: 16.54	F1: 21.18
 	Hypothesis #427 & Reference #0: 
 		rouge-l:	P: 26.15	R: 45.10	F1: 33.11
 	Hypothesis #428 & Reference #0: 
@@ -7474,13 +7474,13 @@ Evaluation with Individual
 	Hypothesis #450 & Reference #0: 
 		rouge-l:	P: 31.50	R: 31.50	F1: 31.50
 	Hypothesis #451 & Reference #0: 
-		rouge-l:	P: 14.68	R: 40.03	F1: 21.48
+		rouge-l:	P: 15.32	R: 40.03	F1: 22.16
 	Hypothesis #452 & Reference #0: 
 		rouge-l:	P: 28.04	R: 56.12	F1: 37.39
 	Hypothesis #453 & Reference #0: 
 		rouge-l:	P: 24.78	R: 40.03	F1: 30.61
 	Hypothesis #454 & Reference #0: 
-		rouge-l:	P: 21.48	R: 23.56	F1: 22.47
+		rouge-l:	P: 22.47	R: 23.56	F1: 23.00
 	Hypothesis #455 & Reference #0: 
 		rouge-l:	P: 34.62	R: 41.69	F1: 37.83
 	Hypothesis #456 & Reference #0: 
@@ -7490,13 +7490,13 @@ Evaluation with Individual
 	Hypothesis #458 & Reference #0: 
 		rouge-l:	P: 27.30	R: 34.19	F1: 30.36
 	Hypothesis #459 & Reference #0: 
-		rouge-l:	P: 15.32	R: 10.47	F1: 12.44
+		rouge-l:	P: 16.02	R: 10.47	F1: 12.66
 	Hypothesis #460 & Reference #0: 
 		rouge-l:	P: 20.58	R: 31.50	F1: 24.89
 	Hypothesis #461 & Reference #0: 
 		rouge-l:	P: 47.74	R: 30.59	F1: 37.29
 	Hypothesis #462 & Reference #0: 
-		rouge-l:	P: 26.90	R: 41.98	F1: 32.79
+		rouge-l:	P: 27.70	R: 41.98	F1: 33.38
 	Hypothesis #463 & Reference #0: 
 		rouge-l:	P: 47.59	R: 71.33	F1: 57.09
 	Hypothesis #464 & Reference #0: 
@@ -7526,7 +7526,7 @@ Evaluation with Individual
 	Hypothesis #476 & Reference #0: 
 		rouge-l:	P: 49.36	R: 13.91	F1: 21.70
 	Hypothesis #477 & Reference #0: 
-		rouge-l:	P: 54.08	R: 42.17	F1: 47.39
+		rouge-l:	P: 56.12	R: 42.17	F1: 48.16
 	Hypothesis #478 & Reference #0: 
 		rouge-l:	P: 44.74	R: 30.70	F1: 36.41
 	Hypothesis #479 & Reference #0: 
@@ -7546,7 +7546,7 @@ Evaluation with Individual
 	Hypothesis #486 & Reference #0: 
 		rouge-l:	P: 46.60	R: 56.12	F1: 50.92
 	Hypothesis #487 & Reference #0: 
-		rouge-l:	P:  8.24	R: 14.68	F1: 10.55
+		rouge-l:	P:  8.60	R: 14.68	F1: 10.84
 	Hypothesis #488 & Reference #0: 
 		rouge-l:	P: 46.60	R: 67.59	F1: 55.17
 	Hypothesis #489 & Reference #0: 
@@ -7566,7 +7566,7 @@ Evaluation with Individual
 	Hypothesis #496 & Reference #0: 
 		rouge-l:	P: 13.22	R: 56.12	F1: 21.40
 	Hypothesis #497 & Reference #0: 
-		rouge-l:	P: 11.09	R: 19.76	F1: 14.21
+		rouge-l:	P: 11.80	R: 19.76	F1: 14.77
 	Hypothesis #498 & Reference #0: 
 		rouge-l:	P: 12.97	R: 18.05	F1: 15.10
 	Hypothesis #499 & Reference #0: 
@@ -7590,7 +7590,7 @@ Evaluation with Individual
 	Hypothesis #508 & Reference #0: 
 		rouge-l:	P: 29.95	R: 43.04	F1: 35.32
 	Hypothesis #509 & Reference #0: 
-		rouge-l:	P: 29.95	R: 22.47	F1: 25.67
+		rouge-l:	P: 31.50	R: 22.47	F1: 26.23
 	Hypothesis #510 & Reference #0: 
 		rouge-l:	P: 31.50	R: 40.03	F1: 35.26
 	Hypothesis #511 & Reference #0: 
@@ -7620,9 +7620,9 @@ Evaluation with Individual
 	Hypothesis #523 & Reference #0: 
 		rouge-l:	P: 50.21	R: 30.59	F1: 38.02
 	Hypothesis #524 & Reference #0: 
-		rouge-l:	P:  9.92	R: 10.47	F1: 10.19
+		rouge-l:	P: 10.47	R: 10.47	F1: 10.47
 	Hypothesis #525 & Reference #0: 
-		rouge-l:	P: 21.02	R: 31.50	F1: 25.21
+		rouge-l:	P: 21.72	R: 31.50	F1: 25.71
 	Hypothesis #526 & Reference #0: 
 		rouge-l:	P: 13.91	R: 29.47	F1: 18.90
 	Hypothesis #527 & Reference #0: 
@@ -7682,7 +7682,7 @@ Evaluation with Individual
 	Hypothesis #554 & Reference #0: 
 		rouge-l:	P: 18.05	R: 21.86	F1: 19.78
 	Hypothesis #555 & Reference #0: 
-		rouge-l:	P: 24.16	R:  9.67	F1: 13.81
+		rouge-l:	P: 26.15	R:  9.67	F1: 14.12
 	Hypothesis #556 & Reference #0: 
 		rouge-l:	P: 56.12	R: 81.10	F1: 66.34
 	Hypothesis #557 & Reference #0: 
@@ -7696,7 +7696,7 @@ Evaluation with Individual
 	Hypothesis #561 & Reference #0: 
 		rouge-l:	P: 44.16	R: 49.36	F1: 46.61
 	Hypothesis #562 & Reference #0: 
-		rouge-l:	P: 30.59	R: 35.82	F1: 33.00
+		rouge-l:	P: 31.50	R: 35.82	F1: 33.52
 	Hypothesis #563 & Reference #0: 
 		rouge-l:	P: 23.56	R: 17.09	F1: 19.81
 	Hypothesis #564 & Reference #0: 
@@ -7706,13 +7706,13 @@ Evaluation with Individual
 	Hypothesis #566 & Reference #0: 
 		rouge-l:	P: 30.24	R: 85.90	F1: 44.74
 	Hypothesis #567 & Reference #0: 
-		rouge-l:	P: 23.80	R: 37.94	F1: 29.25
+		rouge-l:	P: 24.16	R: 37.94	F1: 29.52
 	Hypothesis #568 & Reference #0: 
 		rouge-l:	P: 29.95	R: 62.73	F1: 40.54
 	Hypothesis #569 & Reference #0: 
 		rouge-l:	P: 37.45	R: 46.60	F1: 41.53
 	Hypothesis #570 & Reference #0: 
-		rouge-l:	P: 21.02	R: 27.30	F1: 23.75
+		rouge-l:	P: 21.72	R: 27.30	F1: 24.19
 	Hypothesis #571 & Reference #0: 
 		rouge-l:	P: 28.04	R: 40.03	F1: 32.98
 	Hypothesis #572 & Reference #0: 
@@ -7768,7 +7768,7 @@ Evaluation with Individual
 	Hypothesis #597 & Reference #0: 
 		rouge-l:	P: 27.06	R: 40.03	F1: 32.29
 	Hypothesis #598 & Reference #0: 
-		rouge-l:	P: 23.28	R: 33.24	F1: 27.38
+		rouge-l:	P: 24.16	R: 33.24	F1: 27.98
 	Hypothesis #599 & Reference #0: 
 		rouge-l:	P: 18.65	R: 31.50	F1: 23.43
 	Hypothesis #600 & Reference #0: 
@@ -7828,7 +7828,7 @@ Evaluation with Individual
 	Hypothesis #627 & Reference #0: 
 		rouge-l:	P: 40.03	R: 43.70	F1: 41.79
 	Hypothesis #628 & Reference #0: 
-		rouge-l:	P: 40.03	R: 13.56	F1: 20.25
+		rouge-l:	P: 31.50	R:  9.67	F1: 14.80
 	Hypothesis #629 & Reference #0: 
 		rouge-l:	P: 11.43	R: 50.88	F1: 18.67
 	Hypothesis #630 & Reference #0: 
@@ -7838,7 +7838,7 @@ Evaluation with Individual
 	Hypothesis #632 & Reference #0: 
 		rouge-l:	P: 56.12	R: 66.73	F1: 60.97
 	Hypothesis #633 & Reference #0: 
-		rouge-l:	P: 15.66	R: 27.30	F1: 19.90
+		rouge-l:	P: 16.02	R: 27.30	F1: 20.19
 	Hypothesis #634 & Reference #0: 
 		rouge-l:	P: 28.04	R: 15.73	F1: 20.16
 	Hypothesis #635 & Reference #0: 
@@ -7872,7 +7872,7 @@ Evaluation with Individual
 	Hypothesis #649 & Reference #0: 
 		rouge-l:	P: 32.87	R: 37.94	F1: 35.22
 	Hypothesis #650 & Reference #0: 
-		rouge-l:	P: 19.76	R: 56.12	F1: 29.23
+		rouge-l:	P: 21.02	R: 56.12	F1: 30.58
 	Hypothesis #651 & Reference #0: 
 		rouge-l:	P: 38.84	R: 56.12	F1: 45.91
 	Hypothesis #652 & Reference #0: 
@@ -7890,7 +7890,7 @@ Evaluation with Individual
 	Hypothesis #658 & Reference #0: 
 		rouge-l:	P: 16.81	R: 11.80	F1: 13.86
 	Hypothesis #659 & Reference #0: 
-		rouge-l:	P: 24.16	R: 22.47	F1: 23.28
+		rouge-l:	P: 26.15	R: 22.47	F1: 24.17
 	Hypothesis #660 & Reference #0: 
 		rouge-l:	P: 45.52	R: 68.62	F1: 54.73
 	Hypothesis #661 & Reference #0: 
@@ -7912,9 +7912,9 @@ Evaluation with Individual
 	Hypothesis #669 & Reference #0: 
 		rouge-l:	P: 22.47	R: 46.60	F1: 30.32
 	Hypothesis #670 & Reference #0: 
-		rouge-l:	P: 21.02	R: 46.60	F1: 28.97
+		rouge-l:	P: 22.47	R: 46.60	F1: 30.32
 	Hypothesis #671 & Reference #0: 
-		rouge-l:	P: 13.56	R: 14.68	F1: 14.10
+		rouge-l:	P: 14.09	R: 14.68	F1: 14.38
 	Hypothesis #672 & Reference #0: 
 		rouge-l:	P: 11.80	R: 16.81	F1: 13.86
 	Hypothesis #673 & Reference #0: 
@@ -7934,13 +7934,13 @@ Evaluation with Individual
 	Hypothesis #680 & Reference #0: 
 		rouge-l:	P: 19.76	R: 20.58	F1: 20.16
 	Hypothesis #681 & Reference #0: 
-		rouge-l:	P: 29.09	R: 75.55	F1: 42.01
+		rouge-l:	P: 30.24	R: 75.55	F1: 43.19
 	Hypothesis #682 & Reference #0: 
 		rouge-l:	P: 21.86	R: 31.50	F1: 25.81
 	Hypothesis #683 & Reference #0: 
 		rouge-l:	P: 17.68	R: 19.01	F1: 18.32
 	Hypothesis #684 & Reference #0: 
-		rouge-l:	P: 11.80	R: 13.56	F1: 12.62
+		rouge-l:	P: 12.61	R: 13.56	F1: 13.07
 	Hypothesis #685 & Reference #0: 
 		rouge-l:	P: 22.47	R: 50.21	F1: 31.04
 	Hypothesis #686 & Reference #0: 
@@ -7954,7 +7954,7 @@ Evaluation with Individual
 	Hypothesis #690 & Reference #0: 
 		rouge-l:	P: 19.01	R: 40.03	F1: 25.78
 	Hypothesis #691 & Reference #0: 
-		rouge-l:	P: 24.16	R: 14.09	F1: 17.80
+		rouge-l:	P: 26.15	R: 14.09	F1: 18.32
 	Hypothesis #692 & Reference #0: 
 		rouge-l:	P: 18.32	R: 24.78	F1: 21.06
 	Hypothesis #693 & Reference #0: 
@@ -7984,7 +7984,7 @@ Evaluation with Individual
 	Hypothesis #705 & Reference #0: 
 		rouge-l:	P: 24.16	R: 46.60	F1: 31.82
 	Hypothesis #706 & Reference #0: 
-		rouge-l:	P: 21.02	R: 14.09	F1: 16.87
+		rouge-l:	P: 22.47	R: 14.09	F1: 17.32
 	Hypothesis #707 & Reference #0: 
 		rouge-l:	P: 20.24	R: 40.03	F1: 26.89
 	Hypothesis #708 & Reference #0: 
@@ -7996,7 +7996,7 @@ Evaluation with Individual
 	Hypothesis #711 & Reference #0: 
 		rouge-l:	P: 16.02	R: 12.61	F1: 14.11
 	Hypothesis #712 & Reference #0: 
-		rouge-l:	P: 23.56	R: 20.58	F1: 21.97
+		rouge-l:	P: 24.78	R: 20.58	F1: 22.49
 	Hypothesis #713 & Reference #0: 
 		rouge-l:	P: 18.32	R: 23.56	F1: 20.61
 	Hypothesis #714 & Reference #0: 
@@ -8016,7 +8016,7 @@ Evaluation with Individual
 	Hypothesis #721 & Reference #0: 
 		rouge-l:	P: 13.91	R: 23.56	F1: 17.49
 	Hypothesis #722 & Reference #0: 
-		rouge-l:	P:  9.92	R:  8.24	F1:  9.00
+		rouge-l:	P: 10.47	R:  8.24	F1:  9.22
 	Hypothesis #723 & Reference #0: 
 		rouge-l:	P: 41.48	R: 62.73	F1: 49.94
 	Hypothesis #724 & Reference #0: 
@@ -8054,7 +8054,7 @@ Evaluation with Individual
 	Hypothesis #740 & Reference #0: 
 		rouge-l:	P: 41.48	R: 32.34	F1: 36.34
 	Hypothesis #741 & Reference #0: 
-		rouge-l:	P: 40.03	R:  8.60	F1: 14.15
+		rouge-l:	P: 46.60	R:  8.60	F1: 14.52
 	Hypothesis #742 & Reference #0: 
 		rouge-l:	P:  9.43	R: 18.65	F1: 12.53
 	Hypothesis #743 & Reference #0: 
@@ -8064,7 +8064,7 @@ Evaluation with Individual
 	Hypothesis #745 & Reference #0: 
 		rouge-l:	P:  5.88	R: 16.02	F1:  8.60
 	Hypothesis #746 & Reference #0: 
-		rouge-l:	P: 35.21	R: 40.03	F1: 37.46
+		rouge-l:	P: 40.03	R: 40.03	F1: 40.03
 	Hypothesis #747 & Reference #0: 
 		rouge-l:	P: 41.98	R: 17.68	F1: 24.88
 	Hypothesis #748 & Reference #0: 
@@ -8078,7 +8078,7 @@ Evaluation with Individual
 	Hypothesis #752 & Reference #0: 
 		rouge-l:	P: 12.61	R: 12.61	F1: 12.61
 	Hypothesis #753 & Reference #0: 
-		rouge-l:	P: 25.11	R: 19.19	F1: 21.75
+		rouge-l:	P: 26.15	R: 19.19	F1: 22.14
 	Hypothesis #754 & Reference #0: 
 		rouge-l:	P: 36.07	R: 40.03	F1: 37.95
 	Hypothesis #755 & Reference #0: 
@@ -8114,7 +8114,7 @@ Evaluation with Individual
 	Hypothesis #770 & Reference #0: 
 		rouge-l:	P: 31.50	R: 44.74	F1: 36.97
 	Hypothesis #771 & Reference #0: 
-		rouge-l:	P: 31.50	R: 50.88	F1: 38.91
+		rouge-l:	P: 33.24	R: 50.88	F1: 40.21
 	Hypothesis #772 & Reference #0: 
 		rouge-l:	P: 16.81	R: 19.76	F1: 18.16
 	Hypothesis #773 & Reference #0: 
@@ -8124,7 +8124,7 @@ Evaluation with Individual
 	Hypothesis #775 & Reference #0: 
 		rouge-l:	P: 11.80	R: 14.68	F1: 13.08
 	Hypothesis #776 & Reference #0: 
-		rouge-l:	P: 17.68	R: 21.02	F1: 19.20
+		rouge-l:	P: 18.65	R: 21.02	F1: 19.77
 	Hypothesis #777 & Reference #0: 
 		rouge-l:	P: 12.19	R: 33.24	F1: 17.84
 	Hypothesis #778 & Reference #0: 
@@ -8132,7 +8132,7 @@ Evaluation with Individual
 	Hypothesis #779 & Reference #0: 
 		rouge-l:	P: 37.11	R: 20.83	F1: 26.68
 	Hypothesis #780 & Reference #0: 
-		rouge-l:	P: 24.16	R: 31.50	F1: 27.34
+		rouge-l:	P: 26.15	R: 31.50	F1: 28.58
 	Hypothesis #781 & Reference #0: 
 		rouge-l:	P: 42.40	R: 48.21	F1: 45.12
 	Hypothesis #782 & Reference #0: 
@@ -8144,7 +8144,7 @@ Evaluation with Individual
 	Hypothesis #785 & Reference #0: 
 		rouge-l:	P: 27.30	R: 43.04	F1: 33.41
 	Hypothesis #786 & Reference #0: 
-		rouge-l:	P: 20.37	R: 21.02	F1: 20.69
+		rouge-l:	P: 21.02	R: 21.02	F1: 21.02
 	Hypothesis #787 & Reference #0: 
 		rouge-l:	P: 32.29	R: 44.43	F1: 37.40
 	Hypothesis #788 & Reference #0: 
@@ -8152,7 +8152,7 @@ Evaluation with Individual
 	Hypothesis #789 & Reference #0: 
 		rouge-l:	P: 27.70	R: 24.78	F1: 26.16
 	Hypothesis #790 & Reference #0: 
-		rouge-l:	P: 28.55	R: 17.68	F1: 21.84
+		rouge-l:	P: 35.21	R: 17.68	F1: 23.54
 	Hypothesis #791 & Reference #0: 
 		rouge-l:	P: 28.55	R: 43.04	F1: 34.33
 	Hypothesis #792 & Reference #0: 
@@ -8178,7 +8178,7 @@ Evaluation with Individual
 	Hypothesis #802 & Reference #0: 
 		rouge-l:	P: 32.64	R: 38.27	F1: 35.23
 	Hypothesis #803 & Reference #0: 
-		rouge-l:	P: 11.80	R:  7.91	F1:  9.47
+		rouge-l:	P: 12.61	R:  7.91	F1:  9.72
 	Hypothesis #804 & Reference #0: 
 		rouge-l:	P: 13.56	R: 31.50	F1: 18.96
 	Hypothesis #805 & Reference #0: 
@@ -8204,14 +8204,14 @@ Evaluation with Individual
 	Hypothesis #815 & Reference #0: 
 		rouge-l:	P: 64.26	R: 92.36	F1: 75.79
 	Hypothesis #816 & Reference #0: 
-		rouge-l:	P: 24.78	R: 65.33	F1: 35.94
+		rouge-l:	P: 18.65	R: 46.60	F1: 26.64
 	Hypothesis #817 & Reference #0: 
 		rouge-l:	P: 30.96	R: 83.03	F1: 45.10
 	Hypothesis #818 & Reference #0: 
-		rouge-l:	P: 60.34	R: 35.21	F1: 44.47
+		rouge-l:	P: 65.33	R: 35.21	F1: 45.75
 
 	Hypothesis #0 & Reference #0: 
-		rouge-w:	P: 28.59	R: 14.31	F1: 19.07
+		rouge-w:	P: 30.63	R: 14.31	F1: 19.51
 	Hypothesis #1 & Reference #0: 
 		rouge-w:	P: 12.50	R: 10.14	F1: 11.20
 	Hypothesis #2 & Reference #0: 
@@ -8223,7 +8223,7 @@ Evaluation with Individual
 	Hypothesis #5 & Reference #0: 
 		rouge-w:	P: 22.78	R:  9.26	F1: 13.17
 	Hypothesis #6 & Reference #0: 
-		rouge-w:	P: 10.53	R:  5.69	F1:  7.39
+		rouge-w:	P: 13.48	R:  5.69	F1:  8.00
 	Hypothesis #7 & Reference #0: 
 		rouge-w:	P:  8.19	R: 12.45	F1:  9.88
 	Hypothesis #8 & Reference #0: 
@@ -8243,7 +8243,7 @@ Evaluation with Individual
 	Hypothesis #15 & Reference #0: 
 		rouge-w:	P: 16.65	R:  3.51	F1:  5.79
 	Hypothesis #16 & Reference #0: 
-		rouge-w:	P: 18.02	R: 19.35	F1: 18.66
+		rouge-w:	P: 19.31	R: 19.35	F1: 19.33
 	Hypothesis #17 & Reference #0: 
 		rouge-w:	P: 12.35	R: 10.12	F1: 11.12
 	Hypothesis #18 & Reference #0: 
@@ -8263,7 +8263,7 @@ Evaluation with Individual
 	Hypothesis #25 & Reference #0: 
 		rouge-w:	P:  5.56	R:  2.00	F1:  2.95
 	Hypothesis #26 & Reference #0: 
-		rouge-w:	P:  5.00	R:  7.16	F1:  5.89
+		rouge-w:	P:  5.56	R:  7.16	F1:  6.26
 	Hypothesis #27 & Reference #0: 
 		rouge-w:	P: 12.48	R: 15.30	F1: 13.75
 	Hypothesis #28 & Reference #0: 
@@ -8295,11 +8295,11 @@ Evaluation with Individual
 	Hypothesis #41 & Reference #0: 
 		rouge-w:	P: 15.32	R: 24.13	F1: 18.74
 	Hypothesis #42 & Reference #0: 
-		rouge-w:	P: 16.01	R: 10.93	F1: 12.99
+		rouge-w:	P: 16.27	R: 10.93	F1: 13.07
 	Hypothesis #43 & Reference #0: 
 		rouge-w:	P: 18.72	R: 24.13	F1: 21.09
 	Hypothesis #44 & Reference #0: 
-		rouge-w:	P: 13.88	R:  8.97	F1: 10.89
+		rouge-w:	P: 14.69	R:  8.97	F1: 11.14
 	Hypothesis #45 & Reference #0: 
 		rouge-w:	P: 16.05	R: 15.56	F1: 15.80
 	Hypothesis #46 & Reference #0: 
@@ -8313,7 +8313,7 @@ Evaluation with Individual
 	Hypothesis #50 & Reference #0: 
 		rouge-w:	P: 14.55	R: 10.00	F1: 11.85
 	Hypothesis #51 & Reference #0: 
-		rouge-w:	P: 11.14	R:  9.03	F1:  9.98
+		rouge-w:	P: 11.88	R:  9.03	F1: 10.26
 	Hypothesis #52 & Reference #0: 
 		rouge-w:	P: 16.90	R: 20.66	F1: 18.59
 	Hypothesis #53 & Reference #0: 
@@ -8331,7 +8331,7 @@ Evaluation with Individual
 	Hypothesis #59 & Reference #0: 
 		rouge-w:	P: 20.00	R:  7.76	F1: 11.18
 	Hypothesis #60 & Reference #0: 
-		rouge-w:	P: 14.23	R: 31.48	F1: 19.60
+		rouge-w:	P: 15.02	R: 31.48	F1: 20.33
 	Hypothesis #61 & Reference #0: 
 		rouge-w:	P: 19.22	R: 10.53	F1: 13.60
 	Hypothesis #62 & Reference #0: 
@@ -8339,17 +8339,17 @@ Evaluation with Individual
 	Hypothesis #63 & Reference #0: 
 		rouge-w:	P: 44.30	R: 19.19	F1: 26.78
 	Hypothesis #64 & Reference #0: 
-		rouge-w:	P:  7.56	R:  4.78	F1:  5.86
+		rouge-w:	P:  7.74	R:  4.78	F1:  5.91
 	Hypothesis #65 & Reference #0: 
 		rouge-w:	P: 26.80	R: 12.52	F1: 17.07
 	Hypothesis #66 & Reference #0: 
 		rouge-w:	P:  0.00	R:  0.00	F1:  0.00
 	Hypothesis #67 & Reference #0: 
-		rouge-w:	P: 16.61	R:  5.28	F1:  8.01
+		rouge-w:	P: 17.20	R:  5.28	F1:  8.08
 	Hypothesis #68 & Reference #0: 
 		rouge-w:	P: 16.05	R:  7.00	F1:  9.75
 	Hypothesis #69 & Reference #0: 
-		rouge-w:	P: 10.00	R:  4.41	F1:  6.12
+		rouge-w:	P: 10.53	R:  4.41	F1:  6.22
 	Hypothesis #70 & Reference #0: 
 		rouge-w:	P: 20.18	R: 22.70	F1: 21.36
 	Hypothesis #71 & Reference #0: 
@@ -8371,7 +8371,7 @@ Evaluation with Individual
 	Hypothesis #79 & Reference #0: 
 		rouge-w:	P:  4.55	R:  2.92	F1:  3.56
 	Hypothesis #80 & Reference #0: 
-		rouge-w:	P: 19.22	R: 14.06	F1: 16.24
+		rouge-w:	P: 20.82	R: 14.06	F1: 16.78
 	Hypothesis #81 & Reference #0: 
 		rouge-w:	P: 14.85	R:  5.20	F1:  7.71
 	Hypothesis #82 & Reference #0: 
@@ -8391,7 +8391,7 @@ Evaluation with Individual
 	Hypothesis #89 & Reference #0: 
 		rouge-w:	P: 18.26	R: 21.05	F1: 19.56
 	Hypothesis #90 & Reference #0: 
-		rouge-w:	P: 23.53	R: 75.79	F1: 35.91
+		rouge-w:	P: 25.00	R: 75.79	F1: 37.60
 	Hypothesis #91 & Reference #0: 
 		rouge-w:	P: 14.85	R:  5.20	F1:  7.71
 	Hypothesis #92 & Reference #0: 
@@ -8407,13 +8407,13 @@ Evaluation with Individual
 	Hypothesis #97 & Reference #0: 
 		rouge-w:	P:  8.06	R:  8.34	F1:  8.20
 	Hypothesis #98 & Reference #0: 
-		rouge-w:	P: 28.85	R: 29.17	F1: 29.01
+		rouge-w:	P: 30.10	R: 29.17	F1: 29.63
 	Hypothesis #99 & Reference #0: 
 		rouge-w:	P: 16.97	R: 10.41	F1: 12.90
 	Hypothesis #100 & Reference #0: 
 		rouge-w:	P: 11.95	R: 13.17	F1: 12.53
 	Hypothesis #101 & Reference #0: 
-		rouge-w:	P: 44.57	R: 20.66	F1: 28.23
+		rouge-w:	P: 42.88	R: 18.07	F1: 25.42
 	Hypothesis #102 & Reference #0: 
 		rouge-w:	P: 17.64	R: 26.18	F1: 21.08
 	Hypothesis #103 & Reference #0: 
@@ -8445,7 +8445,7 @@ Evaluation with Individual
 	Hypothesis #116 & Reference #0: 
 		rouge-w:	P:  9.62	R:  6.67	F1:  7.88
 	Hypothesis #117 & Reference #0: 
-		rouge-w:	P: 13.48	R: 24.13	F1: 17.30
+		rouge-w:	P: 14.04	R: 24.13	F1: 17.75
 	Hypothesis #118 & Reference #0: 
 		rouge-w:	P: 13.37	R: 10.39	F1: 11.70
 	Hypothesis #119 & Reference #0: 
@@ -8457,9 +8457,9 @@ Evaluation with Individual
 	Hypothesis #122 & Reference #0: 
 		rouge-w:	P: 11.14	R: 10.03	F1: 10.55
 	Hypothesis #123 & Reference #0: 
-		rouge-w:	P: 16.20	R: 12.76	F1: 14.27
+		rouge-w:	P: 19.80	R: 12.76	F1: 15.52
 	Hypothesis #124 & Reference #0: 
-		rouge-w:	P: 31.75	R: 17.87	F1: 22.87
+		rouge-w:	P: 27.76	R: 14.06	F1: 18.66
 	Hypothesis #125 & Reference #0: 
 		rouge-w:	P: 41.58	R: 24.89	F1: 31.14
 	Hypothesis #126 & Reference #0: 
@@ -8493,7 +8493,7 @@ Evaluation with Individual
 	Hypothesis #140 & Reference #0: 
 		rouge-w:	P: 37.50	R: 80.27	F1: 51.12
 	Hypothesis #141 & Reference #0: 
-		rouge-w:	P: 17.64	R:  4.04	F1:  6.57
+		rouge-w:	P: 18.68	R:  4.04	F1:  6.64
 	Hypothesis #142 & Reference #0: 
 		rouge-w:	P: 12.04	R: 13.07	F1: 12.53
 	Hypothesis #143 & Reference #0: 
@@ -8533,7 +8533,7 @@ Evaluation with Individual
 	Hypothesis #160 & Reference #0: 
 		rouge-w:	P:  5.00	R:  9.68	F1:  6.59
 	Hypothesis #161 & Reference #0: 
-		rouge-w:	P:  8.10	R: 12.76	F1:  9.91
+		rouge-w:	P:  8.48	R: 12.76	F1: 10.19
 	Hypothesis #162 & Reference #0: 
 		rouge-w:	P: 20.31	R: 11.39	F1: 14.60
 	Hypothesis #163 & Reference #0: 
@@ -8573,11 +8573,11 @@ Evaluation with Individual
 	Hypothesis #180 & Reference #0: 
 		rouge-w:	P: 16.71	R:  8.22	F1: 11.02
 	Hypothesis #181 & Reference #0: 
-		rouge-w:	P: 26.46	R:  5.58	F1:  9.22
+		rouge-w:	P: 22.71	R:  4.39	F1:  7.36
 	Hypothesis #182 & Reference #0: 
 		rouge-w:	P: 10.66	R: 12.70	F1: 11.59
 	Hypothesis #183 & Reference #0: 
-		rouge-w:	P: 31.44	R: 18.26	F1: 23.10
+		rouge-w:	P: 32.75	R: 18.26	F1: 23.44
 	Hypothesis #184 & Reference #0: 
 		rouge-w:	P: 28.12	R: 13.12	F1: 17.89
 	Hypothesis #185 & Reference #0: 
@@ -8589,7 +8589,7 @@ Evaluation with Individual
 	Hypothesis #188 & Reference #0: 
 		rouge-w:	P: 35.55	R: 11.88	F1: 17.81
 	Hypothesis #189 & Reference #0: 
-		rouge-w:	P: 15.90	R: 19.35	F1: 17.46
+		rouge-w:	P: 16.89	R: 19.35	F1: 18.04
 	Hypothesis #190 & Reference #0: 
 		rouge-w:	P: 11.09	R: 13.51	F1: 12.18
 	Hypothesis #191 & Reference #0: 
@@ -8605,7 +8605,7 @@ Evaluation with Individual
 	Hypothesis #196 & Reference #0: 
 		rouge-w:	P:  6.25	R:  2.45	F1:  3.52
 	Hypothesis #197 & Reference #0: 
-		rouge-w:	P:  8.43	R: 15.52	F1: 10.92
+		rouge-w:	P:  8.64	R: 15.52	F1: 11.10
 	Hypothesis #198 & Reference #0: 
 		rouge-w:	P: 18.04	R: 23.57	F1: 20.44
 	Hypothesis #199 & Reference #0: 
@@ -8629,13 +8629,13 @@ Evaluation with Individual
 	Hypothesis #208 & Reference #0: 
 		rouge-w:	P:  9.67	R: 10.36	F1: 10.00
 	Hypothesis #209 & Reference #0: 
-		rouge-w:	P: 16.71	R: 16.10	F1: 16.40
+		rouge-w:	P: 17.64	R: 16.10	F1: 16.83
 	Hypothesis #210 & Reference #0: 
 		rouge-w:	P: 16.42	R: 11.95	F1: 13.83
 	Hypothesis #211 & Reference #0: 
 		rouge-w:	P: 13.71	R: 11.24	F1: 12.35
 	Hypothesis #212 & Reference #0: 
-		rouge-w:	P: 29.70	R: 11.24	F1: 16.31
+		rouge-w:	P: 35.64	R: 11.24	F1: 17.09
 	Hypothesis #213 & Reference #0: 
 		rouge-w:	P: 12.61	R: 16.63	F1: 14.35
 	Hypothesis #214 & Reference #0: 
@@ -8649,7 +8649,7 @@ Evaluation with Individual
 	Hypothesis #218 & Reference #0: 
 		rouge-w:	P: 12.73	R:  8.21	F1:  9.98
 	Hypothesis #219 & Reference #0: 
-		rouge-w:	P: 36.00	R: 24.72	F1: 29.31
+		rouge-w:	P: 37.50	R: 24.72	F1: 29.80
 	Hypothesis #220 & Reference #0: 
 		rouge-w:	P: 19.11	R:  7.69	F1: 10.96
 	Hypothesis #221 & Reference #0: 
@@ -8711,7 +8711,7 @@ Evaluation with Individual
 	Hypothesis #249 & Reference #0: 
 		rouge-w:	P: 12.49	R: 12.66	F1: 12.58
 	Hypothesis #250 & Reference #0: 
-		rouge-w:	P: 13.15	R:  8.34	F1: 10.20
+		rouge-w:	P: 13.88	R:  8.34	F1: 10.42
 	Hypothesis #251 & Reference #0: 
 		rouge-w:	P: 44.47	R: 42.55	F1: 43.49
 	Hypothesis #252 & Reference #0: 
@@ -8731,7 +8731,7 @@ Evaluation with Individual
 	Hypothesis #259 & Reference #0: 
 		rouge-w:	P: 18.72	R:  8.26	F1: 11.46
 	Hypothesis #260 & Reference #0: 
-		rouge-w:	P: 20.53	R:  9.80	F1: 13.26
+		rouge-w:	P: 21.82	R:  9.80	F1: 13.52
 	Hypothesis #261 & Reference #0: 
 		rouge-w:	P: 25.00	R: 37.89	F1: 30.12
 	Hypothesis #262 & Reference #0: 
@@ -8763,15 +8763,15 @@ Evaluation with Individual
 	Hypothesis #275 & Reference #0: 
 		rouge-w:	P: 18.52	R: 20.29	F1: 19.37
 	Hypothesis #276 & Reference #0: 
-		rouge-w:	P: 22.27	R: 10.03	F1: 13.83
+		rouge-w:	P: 25.45	R: 10.03	F1: 14.39
 	Hypothesis #277 & Reference #0: 
 		rouge-w:	P: 20.00	R:  6.07	F1:  9.31
 	Hypothesis #278 & Reference #0: 
-		rouge-w:	P: 23.34	R: 27.59	F1: 25.29
+		rouge-w:	P: 24.51	R: 27.59	F1: 25.96
 	Hypothesis #279 & Reference #0: 
 		rouge-w:	P: 22.46	R: 11.07	F1: 14.83
 	Hypothesis #280 & Reference #0: 
-		rouge-w:	P: 19.80	R:  3.93	F1:  6.56
+		rouge-w:	P: 22.27	R:  3.93	F1:  6.68
 	Hypothesis #281 & Reference #0: 
 		rouge-w:	P:  4.00	R:  4.61	F1:  4.28
 	Hypothesis #282 & Reference #0: 
@@ -8781,7 +8781,7 @@ Evaluation with Individual
 	Hypothesis #284 & Reference #0: 
 		rouge-w:	P: 14.62	R:  5.71	F1:  8.21
 	Hypothesis #285 & Reference #0: 
-		rouge-w:	P: 15.61	R:  4.05	F1:  6.44
+		rouge-w:	P: 16.65	R:  4.05	F1:  6.52
 	Hypothesis #286 & Reference #0: 
 		rouge-w:	P: 10.48	R:  3.57	F1:  5.33
 	Hypothesis #287 & Reference #0: 
@@ -8791,7 +8791,7 @@ Evaluation with Individual
 	Hypothesis #289 & Reference #0: 
 		rouge-w:	P:  9.52	R:  4.64	F1:  6.24
 	Hypothesis #290 & Reference #0: 
-		rouge-w:	P: 12.73	R:  8.21	F1:  9.98
+		rouge-w:	P: 13.71	R:  8.21	F1: 10.27
 	Hypothesis #291 & Reference #0: 
 		rouge-w:	P: 17.20	R:  5.59	F1:  8.44
 	Hypothesis #292 & Reference #0: 
@@ -8825,7 +8825,7 @@ Evaluation with Individual
 	Hypothesis #306 & Reference #0: 
 		rouge-w:	P: 23.70	R: 22.01	F1: 22.83
 	Hypothesis #307 & Reference #0: 
-		rouge-w:	P: 11.14	R: 12.76	F1: 11.89
+		rouge-w:	P: 11.88	R: 12.76	F1: 12.30
 	Hypothesis #308 & Reference #0: 
 		rouge-w:	P: 16.05	R:  6.27	F1:  9.02
 	Hypothesis #309 & Reference #0: 
@@ -8833,7 +8833,7 @@ Evaluation with Individual
 	Hypothesis #310 & Reference #0: 
 		rouge-w:	P: 30.86	R: 11.72	F1: 16.99
 	Hypothesis #311 & Reference #0: 
-		rouge-w:	P: 11.75	R:  7.42	F1:  9.10
+		rouge-w:	P: 12.29	R:  7.42	F1:  9.25
 	Hypothesis #312 & Reference #0: 
 		rouge-w:	P: 13.54	R: 23.06	F1: 17.06
 	Hypothesis #313 & Reference #0: 
@@ -8847,7 +8847,7 @@ Evaluation with Individual
 	Hypothesis #317 & Reference #0: 
 		rouge-w:	P: 17.15	R: 24.13	F1: 20.05
 	Hypothesis #318 & Reference #0: 
-		rouge-w:	P: 17.44	R: 14.40	F1: 15.78
+		rouge-w:	P: 18.24	R: 14.40	F1: 16.09
 	Hypothesis #319 & Reference #0: 
 		rouge-w:	P: 11.14	R: 17.25	F1: 13.53
 	Hypothesis #320 & Reference #0: 
@@ -8863,7 +8863,7 @@ Evaluation with Individual
 	Hypothesis #325 & Reference #0: 
 		rouge-w:	P: 14.69	R: 11.50	F1: 12.91
 	Hypothesis #326 & Reference #0: 
-		rouge-w:	P: 26.11	R: 30.15	F1: 27.98
+		rouge-w:	P: 28.12	R: 30.15	F1: 29.10
 	Hypothesis #327 & Reference #0: 
 		rouge-w:	P: 22.47	R: 13.07	F1: 16.53
 	Hypothesis #328 & Reference #0: 
@@ -8915,7 +8915,7 @@ Evaluation with Individual
 	Hypothesis #351 & Reference #0: 
 		rouge-w:	P: 41.58	R: 10.84	F1: 17.19
 	Hypothesis #352 & Reference #0: 
-		rouge-w:	P: 32.47	R: 15.76	F1: 21.22
+		rouge-w:	P: 34.02	R: 15.76	F1: 21.55
 	Hypothesis #353 & Reference #0: 
 		rouge-w:	P:  6.25	R:  4.58	F1:  5.29
 	Hypothesis #354 & Reference #0: 
@@ -8923,7 +8923,7 @@ Evaluation with Individual
 	Hypothesis #355 & Reference #0: 
 		rouge-w:	P: 20.82	R:  8.97	F1: 12.53
 	Hypothesis #356 & Reference #0: 
-		rouge-w:	P:  7.42	R: 25.83	F1: 11.53
+		rouge-w:	P:  7.75	R: 25.83	F1: 11.92
 	Hypothesis #357 & Reference #0: 
 		rouge-w:	P: 17.54	R: 16.64	F1: 17.08
 	Hypothesis #358 & Reference #0: 
@@ -8973,7 +8973,7 @@ Evaluation with Individual
 	Hypothesis #380 & Reference #0: 
 		rouge-w:	P: 29.17	R: 12.31	F1: 17.31
 	Hypothesis #381 & Reference #0: 
-		rouge-w:	P: 14.29	R: 18.95	F1: 16.29
+		rouge-w:	P: 16.67	R: 18.95	F1: 17.73
 	Hypothesis #382 & Reference #0: 
 		rouge-w:	P: 22.93	R:  9.65	F1: 13.59
 	Hypothesis #383 & Reference #0: 
@@ -8983,7 +8983,7 @@ Evaluation with Individual
 	Hypothesis #385 & Reference #0: 
 		rouge-w:	P: 21.43	R: 18.93	F1: 20.10
 	Hypothesis #386 & Reference #0: 
-		rouge-w:	P: 23.03	R: 19.60	F1: 21.18
+		rouge-w:	P: 23.79	R: 19.60	F1: 21.50
 	Hypothesis #387 & Reference #0: 
 		rouge-w:	P: 27.29	R: 18.73	F1: 22.22
 	Hypothesis #388 & Reference #0: 
@@ -9001,7 +9001,7 @@ Evaluation with Individual
 	Hypothesis #394 & Reference #0: 
 		rouge-w:	P: 42.50	R: 17.15	F1: 24.44
 	Hypothesis #395 & Reference #0: 
-		rouge-w:	P: 21.06	R:  7.08	F1: 10.60
+		rouge-w:	P: 22.47	R:  7.08	F1: 10.77
 	Hypothesis #396 & Reference #0: 
 		rouge-w:	P:  8.33	R:  3.88	F1:  5.29
 	Hypothesis #397 & Reference #0: 
@@ -9015,9 +9015,9 @@ Evaluation with Individual
 	Hypothesis #401 & Reference #0: 
 		rouge-w:	P: 24.33	R: 17.93	F1: 20.64
 	Hypothesis #402 & Reference #0: 
-		rouge-w:	P: 26.75	R: 21.41	F1: 23.78
+		rouge-w:	P: 29.89	R: 21.41	F1: 24.95
 	Hypothesis #403 & Reference #0: 
-		rouge-w:	P: 19.84	R: 17.87	F1: 18.80
+		rouge-w:	P: 16.65	R: 14.06	F1: 15.25
 	Hypothesis #404 & Reference #0: 
 		rouge-w:	P: 25.80	R:  8.16	F1: 12.39
 	Hypothesis #405 & Reference #0: 
@@ -9039,7 +9039,7 @@ Evaluation with Individual
 	Hypothesis #413 & Reference #0: 
 		rouge-w:	P: 19.26	R: 11.60	F1: 14.48
 	Hypothesis #414 & Reference #0: 
-		rouge-w:	P: 22.52	R: 13.70	F1: 17.04
+		rouge-w:	P: 24.57	R: 13.70	F1: 17.59
 	Hypothesis #415 & Reference #0: 
 		rouge-w:	P: 39.69	R:  6.53	F1: 11.22
 	Hypothesis #416 & Reference #0: 
@@ -9063,7 +9063,7 @@ Evaluation with Individual
 	Hypothesis #425 & Reference #0: 
 		rouge-w:	P: 11.88	R: 13.29	F1: 12.55
 	Hypothesis #426 & Reference #0: 
-		rouge-w:	P: 19.31	R:  5.42	F1:  8.46
+		rouge-w:	P: 20.79	R:  5.42	F1:  8.60
 	Hypothesis #427 & Reference #0: 
 		rouge-w:	P: 17.15	R: 19.75	F1: 18.36
 	Hypothesis #428 & Reference #0: 
@@ -9113,13 +9113,13 @@ Evaluation with Individual
 	Hypothesis #450 & Reference #0: 
 		rouge-w:	P: 19.67	R:  9.61	F1: 12.91
 	Hypothesis #451 & Reference #0: 
-		rouge-w:	P:  8.91	R: 20.75	F1: 12.47
+		rouge-w:	P:  9.38	R: 20.75	F1: 12.92
 	Hypothesis #452 & Reference #0: 
 		rouge-w:	P: 21.74	R: 31.55	F1: 25.74
 	Hypothesis #453 & Reference #0: 
 		rouge-w:	P: 18.75	R: 21.48	F1: 20.02
 	Hypothesis #454 & Reference #0: 
-		rouge-w:	P: 13.15	R:  8.34	F1: 10.20
+		rouge-w:	P: 13.88	R:  8.34	F1: 10.42
 	Hypothesis #455 & Reference #0: 
 		rouge-w:	P: 23.98	R: 16.46	F1: 19.52
 	Hypothesis #456 & Reference #0: 
@@ -9129,13 +9129,13 @@ Evaluation with Individual
 	Hypothesis #458 & Reference #0: 
 		rouge-w:	P: 16.02	R: 10.71	F1: 12.83
 	Hypothesis #459 & Reference #0: 
-		rouge-w:	P:  9.38	R:  3.01	F1:  4.56
+		rouge-w:	P:  9.90	R:  3.01	F1:  4.61
 	Hypothesis #460 & Reference #0: 
 		rouge-w:	P: 13.51	R: 13.70	F1: 13.61
 	Hypothesis #461 & Reference #0: 
 		rouge-w:	P: 33.40	R:  9.98	F1: 15.37
 	Hypothesis #462 & Reference #0: 
-		rouge-w:	P: 18.03	R: 17.45	F1: 17.73
+		rouge-w:	P: 18.67	R: 17.45	F1: 18.04
 	Hypothesis #463 & Reference #0: 
 		rouge-w:	P: 34.54	R: 29.73	F1: 31.95
 	Hypothesis #464 & Reference #0: 
@@ -9165,7 +9165,7 @@ Evaluation with Individual
 	Hypothesis #476 & Reference #0: 
 		rouge-w:	P: 35.69	R:  3.90	F1:  7.04
 	Hypothesis #477 & Reference #0: 
-		rouge-w:	P: 43.75	R: 16.33	F1: 23.78
+		rouge-w:	P: 45.74	R: 16.33	F1: 24.07
 	Hypothesis #478 & Reference #0: 
 		rouge-w:	P: 38.10	R: 12.05	F1: 18.31
 	Hypothesis #479 & Reference #0: 
@@ -9185,7 +9185,7 @@ Evaluation with Individual
 	Hypothesis #486 & Reference #0: 
 		rouge-w:	P: 34.85	R: 26.50	F1: 30.11
 	Hypothesis #487 & Reference #0: 
-		rouge-w:	P:  5.00	R:  6.31	F1:  5.58
+		rouge-w:	P:  5.26	R:  6.31	F1:  5.74
 	Hypothesis #488 & Reference #0: 
 		rouge-w:	P: 32.81	R: 29.44	F1: 31.03
 	Hypothesis #489 & Reference #0: 
@@ -9205,7 +9205,7 @@ Evaluation with Individual
 	Hypothesis #496 & Reference #0: 
 		rouge-w:	P:  8.82	R: 34.94	F1: 14.09
 	Hypothesis #497 & Reference #0: 
-		rouge-w:	P:  7.14	R:  9.68	F1:  8.22
+		rouge-w:	P:  7.69	R:  9.68	F1:  8.57
 	Hypothesis #498 & Reference #0: 
 		rouge-w:	P:  6.59	R:  4.71	F1:  5.50
 	Hypothesis #499 & Reference #0: 
@@ -9229,7 +9229,7 @@ Evaluation with Individual
 	Hypothesis #508 & Reference #0: 
 		rouge-w:	P: 21.50	R: 20.57	F1: 21.03
 	Hypothesis #509 & Reference #0: 
-		rouge-w:	P: 19.83	R:  7.44	F1: 10.82
+		rouge-w:	P: 21.06	R:  7.44	F1: 10.99
 	Hypothesis #510 & Reference #0: 
 		rouge-w:	P: 20.82	R: 17.89	F1: 19.24
 	Hypothesis #511 & Reference #0: 
@@ -9259,9 +9259,9 @@ Evaluation with Individual
 	Hypothesis #523 & Reference #0: 
 		rouge-w:	P: 34.38	R:  9.67	F1: 15.10
 	Hypothesis #524 & Reference #0: 
-		rouge-w:	P:  6.25	R:  3.88	F1:  4.79
+		rouge-w:	P:  6.67	R:  3.88	F1:  4.90
 	Hypothesis #525 & Reference #0: 
-		rouge-w:	P: 12.21	R: 11.40	F1: 11.79
+		rouge-w:	P: 12.70	R: 11.40	F1: 12.01
 	Hypothesis #526 & Reference #0: 
 		rouge-w:	P:  8.45	R: 12.45	F1: 10.06
 	Hypothesis #527 & Reference #0: 
@@ -9321,7 +9321,7 @@ Evaluation with Individual
 	Hypothesis #554 & Reference #0: 
 		rouge-w:	P:  9.80	R:  6.21	F1:  7.60
 	Hypothesis #555 & Reference #0: 
-		rouge-w:	P: 16.20	R:  2.68	F1:  4.60
+		rouge-w:	P: 17.82	R:  2.68	F1:  4.66
 	Hypothesis #556 & Reference #0: 
 		rouge-w:	P: 42.39	R: 42.49	F1: 42.44
 	Hypothesis #557 & Reference #0: 
@@ -9335,7 +9335,7 @@ Evaluation with Individual
 	Hypothesis #561 & Reference #0: 
 		rouge-w:	P: 31.23	R: 24.18	F1: 27.26
 	Hypothesis #562 & Reference #0: 
-		rouge-w:	P: 19.58	R: 12.53	F1: 15.28
+		rouge-w:	P: 20.28	R: 12.53	F1: 15.49
 	Hypothesis #563 & Reference #0: 
 		rouge-w:	P: 14.69	R:  5.25	F1:  7.73
 	Hypothesis #564 & Reference #0: 
@@ -9345,13 +9345,13 @@ Evaluation with Individual
 	Hypothesis #566 & Reference #0: 
 		rouge-w:	P: 22.01	R: 53.84	F1: 31.25
 	Hypothesis #567 & Reference #0: 
-		rouge-w:	P: 14.23	R: 12.45	F1: 13.28
+		rouge-w:	P: 14.49	R: 12.45	F1: 13.39
 	Hypothesis #568 & Reference #0: 
 		rouge-w:	P: 19.83	R: 32.63	F1: 24.66
 	Hypothesis #569 & Reference #0: 
 		rouge-w:	P: 30.77	R: 25.24	F1: 27.73
 	Hypothesis #570 & Reference #0: 
-		rouge-w:	P: 12.96	R:  9.84	F1: 11.19
+		rouge-w:	P: 13.48	R:  9.84	F1: 11.38
 	Hypothesis #571 & Reference #0: 
 		rouge-w:	P: 17.44	R: 15.56	F1: 16.45
 	Hypothesis #572 & Reference #0: 
@@ -9407,7 +9407,7 @@ Evaluation with Individual
 	Hypothesis #597 & Reference #0: 
 		rouge-w:	P: 18.63	R: 17.35	F1: 17.97
 	Hypothesis #598 & Reference #0: 
-		rouge-w:	P: 17.39	R: 15.51	F1: 16.40
+		rouge-w:	P: 18.18	R: 15.51	F1: 16.74
 	Hypothesis #599 & Reference #0: 
 		rouge-w:	P: 13.33	R: 16.49	F1: 14.75
 	Hypothesis #600 & Reference #0: 
@@ -9467,7 +9467,7 @@ Evaluation with Individual
 	Hypothesis #627 & Reference #0: 
 		rouge-w:	P: 28.84	R: 16.58	F1: 21.05
 	Hypothesis #628 & Reference #0: 
-		rouge-w:	P: 27.76	R:  3.76	F1:  6.63
+		rouge-w:	P: 25.00	R:  3.01	F1:  5.38
 	Hypothesis #629 & Reference #0: 
 		rouge-w:	P:  6.77	R: 26.17	F1: 10.76
 	Hypothesis #630 & Reference #0: 
@@ -9477,7 +9477,7 @@ Evaluation with Individual
 	Hypothesis #632 & Reference #0: 
 		rouge-w:	P: 40.71	R: 30.00	F1: 34.54
 	Hypothesis #633 & Reference #0: 
-		rouge-w:	P:  9.63	R: 10.41	F1: 10.00
+		rouge-w:	P:  9.90	R: 10.41	F1: 10.15
 	Hypothesis #634 & Reference #0: 
 		rouge-w:	P: 17.44	R:  4.06	F1:  6.58
 	Hypothesis #635 & Reference #0: 
@@ -9511,7 +9511,7 @@ Evaluation with Individual
 	Hypothesis #649 & Reference #0: 
 		rouge-w:	P: 24.33	R: 16.59	F1: 19.73
 	Hypothesis #650 & Reference #0: 
-		rouge-w:	P: 14.29	R: 37.89	F1: 20.75
+		rouge-w:	P: 15.38	R: 37.89	F1: 21.88
 	Hypothesis #651 & Reference #0: 
 		rouge-w:	P: 27.61	R: 24.09	F1: 25.73
 	Hypothesis #652 & Reference #0: 
@@ -9529,7 +9529,7 @@ Evaluation with Individual
 	Hypothesis #658 & Reference #0: 
 		rouge-w:	P: 10.48	R:  3.57	F1:  5.33
 	Hypothesis #659 & Reference #0: 
-		rouge-w:	P: 16.20	R:  9.03	F1: 11.60
+		rouge-w:	P: 17.82	R:  9.03	F1: 11.99
 	Hypothesis #660 & Reference #0: 
 		rouge-w:	P: 36.54	R: 37.01	F1: 36.77
 	Hypothesis #661 & Reference #0: 
@@ -9551,9 +9551,9 @@ Evaluation with Individual
 	Hypothesis #669 & Reference #0: 
 		rouge-w:	P: 14.04	R: 21.27	F1: 16.92
 	Hypothesis #670 & Reference #0: 
-		rouge-w:	P: 13.71	R: 25.83	F1: 17.91
+		rouge-w:	P: 14.85	R: 25.83	F1: 18.86
 	Hypothesis #671 & Reference #0: 
-		rouge-w:	P:  8.10	R:  4.89	F1:  6.10
+		rouge-w:	P:  8.48	R:  4.89	F1:  6.21
 	Hypothesis #672 & Reference #0: 
 		rouge-w:	P:  6.85	R:  5.95	F1:  6.37
 	Hypothesis #673 & Reference #0: 
@@ -9573,13 +9573,13 @@ Evaluation with Individual
 	Hypothesis #680 & Reference #0: 
 		rouge-w:	P: 11.47	R:  5.76	F1:  7.67
 	Hypothesis #681 & Reference #0: 
-		rouge-w:	P: 19.49	R: 41.51	F1: 26.53
+		rouge-w:	P: 20.42	R: 41.51	F1: 27.37
 	Hypothesis #682 & Reference #0: 
 		rouge-w:	P: 12.94	R: 11.02	F1: 11.90
 	Hypothesis #683 & Reference #0: 
 		rouge-w:	P: 10.41	R:  6.12	F1:  7.71
 	Hypothesis #684 & Reference #0: 
-		rouge-w:	P:  7.69	R:  5.63	F1:  6.50
+		rouge-w:	P:  8.33	R:  5.63	F1:  6.72
 	Hypothesis #685 & Reference #0: 
 		rouge-w:	P: 14.27	R: 21.52	F1: 17.16
 	Hypothesis #686 & Reference #0: 
@@ -9593,7 +9593,7 @@ Evaluation with Individual
 	Hypothesis #690 & Reference #0: 
 		rouge-w:	P: 13.64	R: 21.48	F1: 16.68
 	Hypothesis #691 & Reference #0: 
-		rouge-w:	P: 16.20	R:  4.62	F1:  7.18
+		rouge-w:	P: 17.82	R:  4.62	F1:  7.33
 	Hypothesis #692 & Reference #0: 
 		rouge-w:	P: 10.86	R:  8.97	F1:  9.82
 	Hypothesis #693 & Reference #0: 
@@ -9623,7 +9623,7 @@ Evaluation with Individual
 	Hypothesis #705 & Reference #0: 
 		rouge-w:	P: 14.93	R: 18.05	F1: 16.34
 	Hypothesis #706 & Reference #0: 
-		rouge-w:	P: 13.71	R:  4.62	F1:  6.91
+		rouge-w:	P: 14.85	R:  4.62	F1:  7.04
 	Hypothesis #707 & Reference #0: 
 		rouge-w:	P: 12.61	R: 16.63	F1: 14.35
 	Hypothesis #708 & Reference #0: 
@@ -9635,7 +9635,7 @@ Evaluation with Individual
 	Hypothesis #711 & Reference #0: 
 		rouge-w:	P: 11.11	R:  5.07	F1:  6.96
 	Hypothesis #712 & Reference #0: 
-		rouge-w:	P: 14.69	R:  6.86	F1:  9.35
+		rouge-w:	P: 15.61	R:  6.86	F1:  9.53
 	Hypothesis #713 & Reference #0: 
 		rouge-w:	P: 11.75	R:  9.02	F1: 10.21
 	Hypothesis #714 & Reference #0: 
@@ -9655,7 +9655,7 @@ Evaluation with Individual
 	Hypothesis #721 & Reference #0: 
 		rouge-w:	P:  7.81	R:  8.34	F1:  8.06
 	Hypothesis #722 & Reference #0: 
-		rouge-w:	P:  6.25	R:  2.75	F1:  3.82
+		rouge-w:	P:  6.67	R:  2.75	F1:  3.89
 	Hypothesis #723 & Reference #0: 
 		rouge-w:	P: 28.32	R: 27.44	F1: 27.87
 	Hypothesis #724 & Reference #0: 
@@ -9693,7 +9693,7 @@ Evaluation with Individual
 	Hypothesis #740 & Reference #0: 
 		rouge-w:	P: 27.22	R: 10.16	F1: 14.80
 	Hypothesis #741 & Reference #0: 
-		rouge-w:	P: 29.70	R:  2.27	F1:  4.21
+		rouge-w:	P: 35.64	R:  2.27	F1:  4.26
 	Hypothesis #742 & Reference #0: 
 		rouge-w:	P:  5.88	R:  7.76	F1:  6.69
 	Hypothesis #743 & Reference #0: 
@@ -9703,7 +9703,7 @@ Evaluation with Individual
 	Hypothesis #745 & Reference #0: 
 		rouge-w:	P:  3.33	R:  7.16	F1:  4.55
 	Hypothesis #746 & Reference #0: 
-		rouge-w:	P: 25.45	R: 20.75	F1: 22.86
+		rouge-w:	P: 29.70	R: 20.75	F1: 24.43
 	Hypothesis #747 & Reference #0: 
 		rouge-w:	P: 28.84	R:  4.71	F1:  8.10
 	Hypothesis #748 & Reference #0: 
@@ -9717,7 +9717,7 @@ Evaluation with Individual
 	Hypothesis #752 & Reference #0: 
 		rouge-w:	P:  8.33	R:  5.07	F1:  6.30
 	Hypothesis #753 & Reference #0: 
-		rouge-w:	P: 16.05	R:  5.93	F1:  8.66
+		rouge-w:	P: 16.85	R:  5.93	F1:  8.77
 	Hypothesis #754 & Reference #0: 
 		rouge-w:	P: 25.22	R: 16.63	F1: 20.05
 	Hypothesis #755 & Reference #0: 
@@ -9753,7 +9753,7 @@ Evaluation with Individual
 	Hypothesis #770 & Reference #0: 
 		rouge-w:	P: 20.53	R: 17.02	F1: 18.61
 	Hypothesis #771 & Reference #0: 
-		rouge-w:	P: 21.06	R: 24.13	F1: 22.49
+		rouge-w:	P: 22.47	R: 24.13	F1: 23.27
 	Hypothesis #772 & Reference #0: 
 		rouge-w:	P: 10.48	R:  7.51	F1:  8.75
 	Hypothesis #773 & Reference #0: 
@@ -9763,7 +9763,7 @@ Evaluation with Individual
 	Hypothesis #775 & Reference #0: 
 		rouge-w:	P:  6.85	R:  4.89	F1:  5.71
 	Hypothesis #776 & Reference #0: 
-		rouge-w:	P: 11.14	R:  8.21	F1:  9.45
+		rouge-w:	P: 11.88	R:  8.21	F1:  9.71
 	Hypothesis #777 & Reference #0: 
 		rouge-w:	P:  6.74	R: 13.07	F1:  8.89
 	Hypothesis #778 & Reference #0: 
@@ -9771,7 +9771,7 @@ Evaluation with Individual
 	Hypothesis #779 & Reference #0: 
 		rouge-w:	P: 28.60	R:  6.65	F1: 10.79
 	Hypothesis #780 & Reference #0: 
-		rouge-w:	P: 16.20	R: 14.69	F1: 15.41
+		rouge-w:	P: 17.82	R: 14.69	F1: 16.11
 	Hypothesis #781 & Reference #0: 
 		rouge-w:	P: 29.99	R: 21.29	F1: 24.90
 	Hypothesis #782 & Reference #0: 
@@ -9783,7 +9783,7 @@ Evaluation with Individual
 	Hypothesis #785 & Reference #0: 
 		rouge-w:	P: 19.24	R: 20.57	F1: 19.88
 	Hypothesis #786 & Reference #0: 
-		rouge-w:	P: 11.76	R:  6.36	F1:  8.26
+		rouge-w:	P: 12.21	R:  6.36	F1:  8.37
 	Hypothesis #787 & Reference #0: 
 		rouge-w:	P: 17.45	R: 11.95	F1: 14.19
 	Hypothesis #788 & Reference #0: 
@@ -9791,7 +9791,7 @@ Evaluation with Individual
 	Hypothesis #789 & Reference #0: 
 		rouge-w:	P: 19.31	R:  9.70	F1: 12.91
 	Hypothesis #790 & Reference #0: 
-		rouge-w:	P: 19.80	R:  6.40	F1:  9.67
+		rouge-w:	P: 25.45	R:  6.40	F1: 10.22
 	Hypothesis #791 & Reference #0: 
 		rouge-w:	P: 17.64	R: 17.87	F1: 17.75
 	Hypothesis #792 & Reference #0: 
@@ -9817,7 +9817,7 @@ Evaluation with Individual
 	Hypothesis #802 & Reference #0: 
 		rouge-w:	P: 26.09	R: 17.52	F1: 20.97
 	Hypothesis #803 & Reference #0: 
-		rouge-w:	P:  7.69	R:  2.59	F1:  3.88
+		rouge-w:	P:  8.33	R:  2.59	F1:  3.95
 	Hypothesis #804 & Reference #0: 
 		rouge-w:	P:  8.10	R: 14.69	F1: 10.44
 	Hypothesis #805 & Reference #0: 
@@ -9843,10 +9843,10 @@ Evaluation with Individual
 	Hypothesis #815 & Reference #0: 
 		rouge-w:	P: 54.38	R: 52.02	F1: 53.18
 	Hypothesis #816 & Reference #0: 
-		rouge-w:	P: 16.89	R: 39.18	F1: 23.61
+		rouge-w:	P: 11.88	R: 25.83	F1: 16.27
 	Hypothesis #817 & Reference #0: 
 		rouge-w:	P: 23.50	R: 44.66	F1: 30.79
 	Hypothesis #818 & Reference #0: 
-		rouge-w:	P: 50.88	R: 14.50	F1: 22.57
+		rouge-w:	P: 55.97	R: 14.50	F1: 23.03
 
 

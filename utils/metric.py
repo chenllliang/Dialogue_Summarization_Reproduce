@@ -1,7 +1,6 @@
 import rouge
 
-def compute_rouge(src_file,tgt_file,file):
-    # official rouge
+def compute_rouge(src_file,tgt_files:list,file):
     with open(file,'w') as out:
         for aggregator in ['Avg', 'Best', 'Individual']:
             out.write('Evaluation with {} \n'.format(aggregator))
@@ -23,12 +22,22 @@ def compute_rouge(src_file,tgt_file,file):
             tgt = []
 
             with open(src_file, "r") as f:
-                output = [i.lower() for i in f.readlines()]
-            with open(tgt_file, "r") as f:
-                tgt = [i.lower() for i in f.readlines()]
+                output = [i.lower().replace('<unk>', '').replace('#','').replace('_','') for i in f.readlines()]
+
+            for i in tgt_files:
+                with open(i, "r") as f:
+                    tgt.append([i.lower().replace('#','').replace('_','') for i in f.readlines()])
+
+            num_ref = len(tgt_files)
+            all_references = []
+            for i in range(len(output)):
+                temp_refs=[]
+                for j in range(num_ref):
+                    temp_refs.append(tgt[j][i])
+                all_references.append(temp_refs)
 
             all_hypothesis = output
-            all_references = tgt
+
 
             scores = evaluator.get_scores(all_hypothesis, all_references)
 
@@ -49,7 +58,21 @@ def compute_rouge(src_file,tgt_file,file):
             out.write('\n')
 
 
+
 if __name__ == '__main__':
     #compute_rouge("/Users/leo/Desktop/桌面/NLPDataset/xsum_raw/lead3-n.txt","/Users/leo/Desktop/桌面/NLPDataset/xsum_raw/lead3-n.txt.tgt","lead3_xsum_rouges.txt")
-    compute_rouge("/Users/leo/Desktop/桌面/NLPDataset/samsum_raw/lead3-n.txt","/Users/leo/Desktop/桌面/NLPDataset/samsum_raw/lead3-n.txt.tgt","lead3_samsum_rouges.txt")
+    #compute_rouge("/Users/leo/Desktop/桌面/NLPDataset/samsum_raw/lead3-n.txt",["/Users/leo/Desktop/桌面/NLPDataset/samsum_raw/lead3-n.txt.tgt"],"lead3_samsum_rouges.txt")
     #compute_rouge("/Users/leo/Desktop/桌面/NLPDataset/cnndm/lead3-n.txt","/Users/leo/Desktop/桌面/NLPDataset/cnndm/lead3-n.txt.tgt","lead3_cnndm_rouges.txt")
+    #compute_rouge("/Users/leo/Desktop/桌面/NLPDataset/ricos/lead3-n.txt",["/Users/leo/Desktop/桌面/NLPDataset/ricos/last3-n.txt.tgt1","/Users/leo/Desktop/桌面/NLPDataset/ricos/last3-n.txt.tgt2","/Users/leo/Desktop/桌面/NLPDataset/ricos/last3-n.txt.tgt3"],"lead3_ricos_rouges.txt")
+    compute_rouge("/Users/leo/Desktop/桌面/NLPDataset/ricos/mid3-n.txt",
+                  ["/Users/leo/Desktop/桌面/NLPDataset/ricos/last3-n.txt.tgt1",
+                   "/Users/leo/Desktop/桌面/NLPDataset/ricos/last3-n.txt.tgt2",
+                   "/Users/leo/Desktop/桌面/NLPDataset/ricos/last3-n.txt.tgt3"], "mid3_ricos_rouges.txt")
+    compute_rouge("/Users/leo/Desktop/桌面/NLPDataset/ricos/last3-n.txt",
+                  ["/Users/leo/Desktop/桌面/NLPDataset/ricos/last3-n.txt.tgt1",
+                   "/Users/leo/Desktop/桌面/NLPDataset/ricos/last3-n.txt.tgt2",
+                   "/Users/leo/Desktop/桌面/NLPDataset/ricos/last3-n.txt.tgt3"], "last3_ricos_rouges.txt")
+    compute_rouge("/Users/leo/Desktop/桌面/NLPDataset/ricos/random3-n.txt",
+                  ["/Users/leo/Desktop/桌面/NLPDataset/ricos/last3-n.txt.tgt1",
+                   "/Users/leo/Desktop/桌面/NLPDataset/ricos/last3-n.txt.tgt2",
+                   "/Users/leo/Desktop/桌面/NLPDataset/ricos/last3-n.txt.tgt3"], "random3_ricos_rouges.txt")
