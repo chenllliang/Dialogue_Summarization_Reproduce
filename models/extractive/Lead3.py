@@ -23,7 +23,7 @@ class Lead3(Extractive_Summarizer):
     def summary_file(self, file_path, output_path, multi_ref=0, is_dialogue=False, methods="lead3"):
         """
 
-        :param file_path: json format file , {"source":"xxx","summary":"x"} in each line
+        :param file_path: json format file , {"source":"xxx","summary":["x"]} in each line
         :param output_path:
         :return:
         """

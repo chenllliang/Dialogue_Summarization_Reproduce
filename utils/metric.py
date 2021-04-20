@@ -61,18 +61,18 @@ def compute_rouge(src_file,tgt_files:list,file):
 
 if __name__ == '__main__':
     #compute_rouge("/Users/leo/Desktop/桌面/NLPDataset/xsum_raw/lead3-n.txt","/Users/leo/Desktop/桌面/NLPDataset/xsum_raw/lead3-n.txt.tgt","lead3_xsum_rouges.txt")
-    #compute_rouge("/Users/leo/Desktop/桌面/NLPDataset/samsum_raw/lead3-n.txt",["/Users/leo/Desktop/桌面/NLPDataset/samsum_raw/lead3-n.txt.tgt"],"lead3_samsum_rouges.txt")
+    compute_rouge("/Users/leo/Desktop/桌面/NLPDataset/samsum_raw/test_text_rank.txt",["/Users/leo/Desktop/桌面/NLPDataset/samsum_raw/lead3-n.txt.tgt"],"textrank3_samsum_rouges.txt")
     #compute_rouge("/Users/leo/Desktop/桌面/NLPDataset/cnndm/lead3-n.txt","/Users/leo/Desktop/桌面/NLPDataset/cnndm/lead3-n.txt.tgt","lead3_cnndm_rouges.txt")
     #compute_rouge("/Users/leo/Desktop/桌面/NLPDataset/ricos/lead3-n.txt",["/Users/leo/Desktop/桌面/NLPDataset/ricos/last3-n.txt.tgt1","/Users/leo/Desktop/桌面/NLPDataset/ricos/last3-n.txt.tgt2","/Users/leo/Desktop/桌面/NLPDataset/ricos/last3-n.txt.tgt3"],"lead3_ricos_rouges.txt")
-    compute_rouge("/Users/leo/Desktop/桌面/NLPDataset/ricos/mid3-n.txt",
+    # compute_rouge("/Users/leo/Desktop/桌面/NLPDataset/ricos/mid3-n.txt",
+    #               ["/Users/leo/Desktop/桌面/NLPDataset/ricos/last3-n.txt.tgt1",
+    #                "/Users/leo/Desktop/桌面/NLPDataset/ricos/last3-n.txt.tgt2",
+    #                "/Users/leo/Desktop/桌面/NLPDataset/ricos/last3-n.txt.tgt3"], "mid3_ricos_rouges.txt")
+    # compute_rouge("/Users/leo/Desktop/桌面/NLPDataset/ricos/last3-n.txt",
+    #               ["/Users/leo/Desktop/桌面/NLPDataset/ricos/last3-n.txt.tgt1",
+    #                "/Users/leo/Desktop/桌面/NLPDataset/ricos/last3-n.txt.tgt2",
+    #                "/Users/leo/Desktop/桌面/NLPDataset/ricos/last3-n.txt.tgt3"], "last3_ricos_rouges.txt")
+    compute_rouge("/Users/leo/Desktop/桌面/NLPDataset/ricos/test_text_rank.txt",
                   ["/Users/leo/Desktop/桌面/NLPDataset/ricos/last3-n.txt.tgt1",
                    "/Users/leo/Desktop/桌面/NLPDataset/ricos/last3-n.txt.tgt2",
-                   "/Users/leo/Desktop/桌面/NLPDataset/ricos/last3-n.txt.tgt3"], "mid3_ricos_rouges.txt")
-    compute_rouge("/Users/leo/Desktop/桌面/NLPDataset/ricos/last3-n.txt",
-                  ["/Users/leo/Desktop/桌面/NLPDataset/ricos/last3-n.txt.tgt1",
-                   "/Users/leo/Desktop/桌面/NLPDataset/ricos/last3-n.txt.tgt2",
-                   "/Users/leo/Desktop/桌面/NLPDataset/ricos/last3-n.txt.tgt3"], "last3_ricos_rouges.txt")
-    compute_rouge("/Users/leo/Desktop/桌面/NLPDataset/ricos/random3-n.txt",
-                  ["/Users/leo/Desktop/桌面/NLPDataset/ricos/last3-n.txt.tgt1",
-                   "/Users/leo/Desktop/桌面/NLPDataset/ricos/last3-n.txt.tgt2",
-                   "/Users/leo/Desktop/桌面/NLPDataset/ricos/last3-n.txt.tgt3"], "random3_ricos_rouges.txt")
+                   "/Users/leo/Desktop/桌面/NLPDataset/ricos/last3-n.txt.tgt3"], "textrank3_ricos_rouges.txt")
