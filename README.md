@@ -20,15 +20,57 @@
 
 ## Experiment Results
 
+### Abstractive Methods
+| CNNDM3.0/Abs | ROUGE1 | ROUGE2 | ROUGEL | ROUGEW
+| :-----| :----: | :----: |:----: |:----: |
+| Pointer+Coverage |  |  |  | 
+| Transformer |  |  |
+| Bart-Large |  |  |
+
+
+| Xsum/Abs | ROUGE1 | ROUGE2 | ROUGEL | ROUGEW
+| :-----| :----: | :----: |:----: |:----: |
+| Bart-Large |  - |- | -| -|
+| Pointer+Coverage |  |  |  | 
+| Transformer |  |  |
+
+| Samsum/Abs | ROUGE1 | ROUGE2 | ROUGEL | ROUGEW
+| :-----| :----: | :----: |:----: |:----: |
+| Bart-Large | 48.59 | 25.82 | 41.46 | -
+| Pointer+Coverage |  |  |  | 
+| Transformer |  |  |
+
+| Ricos/Abs | ROUGE1 | ROUGE2 | ROUGEL | ROUGEW
+| :-----| :----: | :----: |:----: |:----: |
+| Bart-Large | - |- | -| -|
+| Pointer+Coverage |  |  |  | 
+| Transformer |  |  |
+
+
+
+
+
+```
+Model Parameters:
+BART_Large:
+    max_input_length = 512
+    max_target_length = 128
+    learning_rate=3e-5,
+    per_device_train_batch_size=8,
+    weight_decay=0.01,
+    num_train_epochs=5,
+    fp16=True,
+    warmup_steps=200
+```
+
+
+### Extractive Methods
+
 | CNNDM3.0/Ext | ROUGE1 | ROUGE2 | ROUGEL | ROUGEW
 | :-----| :----: | :----: |:----: |:----: |
 | LEAD3 | 40.52 | 17.60 | 31.53 | 13.63
 | TextRank |  |  |
 
-| CNNDM3.0/Abs | ROUGE1 | ROUGE2 | ROUGEL | ROUGEW
-| :-----| :----: | :----: |:----: |:----: |
-| Pointer+Coverage |  |  |  | 
-| Transformer |  |  |
 
 | Xsum/Ext | ROUGE1 | ROUGE2 | ROUGEL | ROUGEW
 | :-----| :----: | :----: |:----: |:----: |
@@ -42,7 +84,6 @@
 | LAST3 | 26.38 | 5.91 | 25.79 | 12.75
 | RANDOM3 | 28.29 | 7.36 | 27.25 | 13.75
 | TextRank | 27.59 | 6.93 |27.06| 13.55
-
 
 | Ricos/Ext | ROUGE1 | ROUGE2 | ROUGEL | ROUGEW
 | :-----| :----: | :----: |:----: |:----: |
