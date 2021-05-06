@@ -36,7 +36,7 @@
 
 | Samsum/Abs | ROUGE1 | ROUGE2 | ROUGEL | ROUGEW
 | :-----| :----: | :----: |:----: |:----: |
-| Bart-Large | 48.59 | 25.82 | 41.46 | -
+| Bart-Large | 48.34 | 25.65 | 41.03 | -
 | Peugsus | **50.62** | **26.37**|**42.28**| -
 | Transformer |  |  |
 
