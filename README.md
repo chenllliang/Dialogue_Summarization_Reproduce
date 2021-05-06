@@ -1,5 +1,6 @@
 # Easy_summarizatioon
- easy summarization methods via pytorch
+ Reproduce summarization methods and experiments via pytorch & Transformers, mainly focusing on dialogue summarization.
+ 
  
 ## Available Resource
 
@@ -10,7 +11,8 @@
 - TextRank
 
 *Abstractive*
-- None
+- Bart-Large
+- Peugsus
 
 ### Dataset
 - CNNDM3.0
