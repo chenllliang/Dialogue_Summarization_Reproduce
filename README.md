@@ -59,6 +59,15 @@ BART_Large:
     num_train_epochs=5,
     fp16=True,
     warmup_steps=200
+Pegasus:
+    max_input_length = 512
+    max_target_length = 128
+    learning_rate=3e-5,
+    per_device_train_batch_size=8,
+    weight_decay=0.01,
+    num_train_epochs=5,
+    fp16=True,
+    warmup_steps=200
 ```
 
 
