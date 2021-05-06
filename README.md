@@ -23,7 +23,6 @@
 ### Abstractive Methods
 | CNNDM3.0/Abs | ROUGE1 | ROUGE2 | ROUGEL | ROUGEW
 | :-----| :----: | :----: |:----: |:----: |
-| Pointer+Coverage |  |  |  | 
 | Transformer |  |  |
 | Bart-Large |  |  |
 
@@ -31,13 +30,12 @@
 | Xsum/Abs | ROUGE1 | ROUGE2 | ROUGEL | ROUGEW
 | :-----| :----: | :----: |:----: |:----: |
 | Bart-Large |  - |- | -| -|
-| Pointer+Coverage |  |  |  | 
 | Transformer |  |  |
 
 | Samsum/Abs | ROUGE1 | ROUGE2 | ROUGEL | ROUGEW
 | :-----| :----: | :----: |:----: |:----: |
 | Bart-Large | 48.59 | 25.82 | 41.46 | -
-| Pointer+Coverage |  |  |  | 
+| Peugsus | 
 | Transformer |  |  |
 
 | Ricos/Abs | ROUGE1 | ROUGE2 | ROUGEL | ROUGEW
