@@ -1,4 +1,4 @@
-# Easy_summarizatioon
+# Dialogue Summarization Reproduce
  Reproduce summarization methods and experiments via pytorch & Transformers, mainly focusing on dialogue summarization.
  
  
